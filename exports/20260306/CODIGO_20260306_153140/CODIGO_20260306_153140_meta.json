@@ -1,0 +1,446 @@
+{
+  "base": "CODIGO_20260306_153140",
+  "created_at": "2026-03-06T15:31:40",
+  "started_at": "2026-03-06T15:15:00",
+  "ended_at": "2026-03-06T15:31:40",
+  "duration_s": 1000.001683,
+  "n_rows": 1603,
+  "n_cols": 480,
+  "poll_ms": 600,
+  "source": {
+    "host": "http://127.0.0.1:5000",
+    "path": "/api/latest",
+    "csv_path": null,
+    "autofind": false
+  },
+  "ambient_sensors_behavior": {
+    "captured": true,
+    "n_samples": 1505,
+    "n_samples_raw": 1603,
+    "n_samples_after_warmup": 1505,
+    "warmup_sec_applied": 60.0,
+    "warmup_idx": 98,
+    "dt_est_s": 0.6146953105926514,
+    "t_start_s": 60.9014208316803,
+    "t_end_s": 999.1227378845215,
+    "span_s": 938.2213170528412,
+    "s4_counts": {
+      "0": 1505,
+      "1": 0
+    },
+    "s4_counts_env_valid": {
+      "0": 1505,
+      "1": 0
+    },
+    "summary": {
+      "lux": {
+        "n_total": 1505,
+        "n_valid": 0,
+        "n_invalid": 1505,
+        "valid_pct": 0.0,
+        "status": "not_measured",
+        "reason": "Sensor lux no medido/no disponible (valores 0 tras warm-up)."
+      },
+      "temp_c": {
+        "n_total": 1505,
+        "n_valid": 1505,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 23.28,
+        "last": 23.28,
+        "delta": 0.0,
+        "mean": 23.301966777408637,
+        "std": 0.03211492762527385,
+        "median": 23.31,
+        "mad": 0.029999999999997584,
+        "min": 23.13,
+        "max": 23.52,
+        "range": 0.39000000000000057,
+        "trend": "stable",
+        "variability": "low",
+        "slope_per_min": 0.0,
+        "t_start_valid_s": 60.9014208316803,
+        "t_end_valid_s": 999.1227378845215,
+        "span_valid_s": 938.2213170528412
+      },
+      "acc_mag_m_s2": {
+        "n_total": 1505,
+        "n_valid": 1505,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 0.0,
+        "last": 0.0,
+        "delta": 0.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "mad": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "trend": "stable",
+        "variability": "unknown",
+        "slope_per_min": 0.0,
+        "t_start_valid_s": 60.9014208316803,
+        "t_end_valid_s": 999.1227378845215,
+        "span_valid_s": 938.2213170528412
+      },
+      "rot_mag_deg_s": {
+        "n_total": 1505,
+        "n_valid": 1505,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 0.0,
+        "last": 0.0,
+        "delta": 0.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "mad": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "trend": "stable",
+        "variability": "unknown",
+        "slope_per_min": 0.0,
+        "t_start_valid_s": 60.9014208316803,
+        "t_end_valid_s": 999.1227378845215,
+        "span_valid_s": 938.2213170528412
+      },
+      "ldr_raw": {
+        "n_total": 1505,
+        "n_valid": 629,
+        "n_invalid": 876,
+        "valid_pct": 41.794019933554814,
+        "status": "ok",
+        "first": 24.0,
+        "last": 32.0,
+        "delta": 8.0,
+        "mean": 48.310015898251194,
+        "std": 28.965566722800286,
+        "median": 54.0,
+        "mad": 24.0,
+        "min": 1.0,
+        "max": 100.0,
+        "range": 99.0,
+        "trend": "stable",
+        "variability": "high",
+        "slope_per_min": 0.5126208964429415,
+        "t_start_valid_s": 62.13999319076538,
+        "t_end_valid_s": 998.5044748783112,
+        "span_valid_s": 936.3644816875458
+      }
+    },
+    "by_s4_mean": {
+      "s4_0": {
+        "n": 1505,
+        "lux": 0.0,
+        "temp_c": 23.301966777408637,
+        "acc_mag_m_s2": 0.0,
+        "rot_mag_deg_s": 0.0,
+        "ldr_raw": 20.190697674418605
+      },
+      "s4_1": {
+        "n": 0,
+        "lux": null,
+        "temp_c": null,
+        "acc_mag_m_s2": null,
+        "rot_mag_deg_s": null,
+        "ldr_raw": null
+      }
+    },
+    "last_snapshot": {
+      "lux": 0.0,
+      "temp_c": 23.28,
+      "acc_mag_m_s2": 0.0,
+      "rot_mag_deg_s": 0.0,
+      "ldr_raw": 0.0,
+      "s4": 0
+    },
+    "stability_semaphore_qc_env": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "Luz: no medido/no disponible (no penaliza semaforo)."
+      ],
+      "threshold_profile": "QC-env-v2",
+      "n_samples": 1505,
+      "n_samples_raw": 1603,
+      "n_samples_after_warmup": 1505,
+      "span_s": 938.2213170528412
+    },
+    "ldr_bar_snapshot": {
+      "status": "stable",
+      "label": "ESTABLE (OK para experimento)",
+      "color": "#6dd17a",
+      "value": 0.0,
+      "delta": -32.0,
+      "metrics": {
+        "n": 90,
+        "std": 30.486394455782737,
+        "span": 93.0,
+        "drift": 0.043540951760850925,
+        "p95_dv": 83.79999999999998
+      },
+      "baseline_ready": true
+    },
+    "stability_semaphore_ldr_bar": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=30.5, span=93, drift=+0.04 ADC/s, p95Δ=84",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 30.486394455782737,
+        "span": 93.0,
+        "drift": 0.043540951760850925,
+        "p95_dv": 83.79999999999998
+      },
+      "ldr_value": 0.0,
+      "ldr_delta": -32.0
+    },
+    "stability_semaphore": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=30.5, span=93, drift=+0.04 ADC/s, p95Δ=84",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 30.486394455782737,
+        "span": 93.0,
+        "drift": 0.043540951760850925,
+        "p95_dv": 83.79999999999998
+      },
+      "ldr_value": 0.0,
+      "ldr_delta": -32.0,
+      "fallback_qc_env": {
+        "status": "stable",
+        "label": "ESTABLE",
+        "score": 0,
+        "defendible_env": true,
+        "reasons": [
+          "Luz: no medido/no disponible (no penaliza semaforo)."
+        ],
+        "threshold_profile": "QC-env-v2",
+        "n_samples": 1505,
+        "n_samples_raw": 1603,
+        "n_samples_after_warmup": 1505,
+        "span_s": 938.2213170528412
+      }
+    }
+  },
+  "code_detector": {
+    "coding_active": false,
+    "finished": true,
+    "preamble": {
+      "bits": "10101010",
+      "detected_live": true,
+      "state": "found",
+      "label": "DETECTADO",
+      "color": "#2ecc71"
+    },
+    "baliza1": {
+      "bits": "110100111110",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza2": {
+      "bits": "01001111101001011",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza": {
+      "bits": "01001111101001011",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    }
+  },
+  "barcodes": {
+    "temporal": {
+      "otsu": 131.91671549479167,
+      "bits_len": 1603,
+      "pad": 5,
+      "hex": "424240df46090540952099088200042fc0ceeeffdeceaf7fe8e9ec2d06553e26806862fff15cfc73df5f7e77cf679fffb5fddffbb37f78fffffffffff6bcfce83016da17c0cc2e0576e8c290d6520b8396463910c1123000adbb288437188501705f4598d7f4c63bfd4476a5818970460d0132c5db2f429bff5d9a37dac232d39129678ab7e716869e010702f21101244880fd015ac85b0603f937135b7f2cb4ffc55a7bf78efeba50802af2506b32d5f467b24241786aa6664c01184c060226114c620280054244e0",
+      "rle": "0:1, 1:1, 0:4, 1:1, 0:2, 1:1, 0:4, 1:1, 0:2, 1:1, 0:6, 1:2, 0:1, 1:5, 0:1, 1:1, 0:3, 1:2, 0:5, 1:1, 0:2, 1:1, 0:5, 1:1, 0:1, 1:1, 0:1, 1:1, 0:6, 1:1, 0:2, 1:1, 0:1, 1:1, 0:1, 1:1, 0:2, 1:1, 0:5, 1:1, 0:2, 1:2, 0:2, 1:1, 0:4, 1:1, 0:3, 1:1, 0:5, 1:1, 0:14, 1:1, 0:4, 1:1, 0:1, 1:6, 0:6, 1:2, 0:2, 1:3, 0:1, 1:3, 0:1, 1:3, 0:1, 1:10, 0:1, 1:4, 0:1, 1:2, 0:2, 1:3, 0:1, 1:1, 0:1, 1:1, 0:1, 1:4, 0:1, 1:10, 0:1, 1:1, 0:3, 1:3, 0:1, 1:1, 0:2, 1:4, 0:1, 1:2, 0:4, 1:1, 0:1, 1:2, 0:1, 1:1, 0:5, 1:2, 0:2, 1:1, 0:1, 1:1, 0:1, 1:1, 0:1, 1:1, 0:2, 1:5, 0:3, 1:1, 0:2, 1:2, 0:1, 1:1, 0:8, 1:2, 0:1, 1:1, 0:4, 1:2, 0:3, 1:1, 0:1, 1:12, 0:3, 1:1, 0:1, 1:1, 0:1, 1:3, 0:2, 1:6, 0:3, 1:3, 0:2, 1:4, 0:1, 1:5, 0:1, 1:1, 0:1, 1:5, 0:1, 1:6, 0:2, 1:3, 0:1, 1:5, 0:2, 1:4, 0:1, 1:2, 0:2, 1:4, 0:2, 1:14, 0:1, 1:2, 0:1, 1:1, 0:1, 1:7, 0:1, 1:3, 0:1, 1:10, 0:1, 1:3, 0:1, 1:2, 0:2, 1:2, 0:1, 1:7, 0:1, 1:4, 0:3, 1:44, 0:1, 1:2, 0:1, 1:1, 0:1, 1:4, 0:2, 1:6, 0:2, 1:3, 0:1, 1:1, 0:5, 1:2, 0:7, 1:1, 0:1, 1:2, 0:1, 1:2, 0:1, 1:2, 0:1, 1:1, 0:4, 1:1, 0:1, 1:5, 0:6, 1:2, 0:2, 1:2, 0:4, 1:1, 0:1, 1:3, 0:6, 1:1, 0:1, 1:1, 0:1, 1:3, 0:1, 1:2, 0:1, 1:3, 0:1, 1:1, 0:3, 1:2, 0:4, 1:1, 0:1, 1:1, 0:2, 1:1, 0:4, 1:2, 0:1, 1:1, 0:1, 1:2, 0:2, 1:1, 0:1, 1:1, 0:2, 1:1, 0:5, 1:1, 0:1, 1:3, 0:5, 1:3, 0:2, 1:1, 0:1, 1:2, 0:2, 1:1, 0:3, 1:2, 0:3, 1:3, 0:2, 1:1, 0:3, 1:1, 0:4, 1:2, 0:5, 1:1, 0:3, 1:1, 0:2, 1:1, 0:3, 1:2, 0:12, 1:1, 0:1, 1:1, 0:1, 1:2, 0:1, 1:2, 0:1, 1:3, 0:1, 1:2, 0:2, 1:1, 0:1, 1:1, 0:3, 1:1, 0:4, 1:1, 0:4, 1:2, 0:1, 1:3, 0:3, 1:2, 0:3, 1:1, 0:4, 1:1, 0:1, 1:1, 0:7, 1:1, 0:1, 1:3, 0:5, 1:1, 0:1, 1:5, 0:1, 1:1, 0:3, 1:1, 0:1, 1:2, 0:2, 1:2, 0:3, 1:2, 0:1, 1:1, 0:1, 1:7, 0:1, 1:1, 0:2, 1:2, 0:3, 1:2, 0:3, 1:3, 0:1, 1:8, 0:1, 1:1, 0:1, 1:1, 0:3, 1:1, 0:3, 1:3, 0:1, 1:2, 0:1, 1:1, 0:1, 1:1, 0:2, 1:1, 0:1, 1:2, 0:6, 1:2, 0:3, 1:1, 0:2, 1:1, 0:1, 1:3, 0:5, 1:1, 0:3, 1:2, 0:5, 1:2, 0:1, 1:1, 0:7, 1:1, 0:2, 1:2, 0:2, 1:1, 0:1, 1:2, 0:3, 1:1, 0:1, 1:3, 0:1, 1:2, 0:1, 1:2, 0:2, 1:1, 0:1, 1:4, 0:1, 1:1, 0:4, 1:1, 0:1, 1:1, 0:2, 1:2, 0:1, 1:10, 0:1, 1:1, 0:1, 1:3, 0:1, 1:2, 0:2, 1:2, 0:1, 1:1, 0:3, 1:2, 0:1, 1:5, 0:1, 1:2, 0:1, 1:1, 0:1, 1:2, 0:4, 1:1, 0:3, 1:2, 0:2, 1:1, 0:1, 1:2, 0:1, 1:1, 0:2, 1:3, 0:2, 1:1, 0:3, 1:1, 0:2, 1:1, 0:1, 1:1, 0:2, 1:1, 0:1, 1:2, 0:2, 1:4, 0:3, 1:1, 0:1, 1:1, 0:1, 1:1, 0:1, 1:2, 0:1, 1:6, 0:2, 1:3, 0:3, 1:1, 0:1, 1:2, 0:1, 1:1, 0:4, 1:2, 0:1, 1:1, 0:2, 1:4, 0:8, 1:1, 0:5, 1:3, 0:6, 1:1, 0:1, 1:4, 0:2, 1:1, 0:4, 1:1, 0:3, 1:1, 0:7, 1:1, 0:2, 1:1, 0:2, 1:1, 0:3, 1:1, 0:2, 1:1, 0:3, 1:1, 0:7, 1:6, 0:1, 1:1, 0:7, 1:1, 0:1, 1:1, 0:1, 1:2, 0:1, 1:1, 0:1, 1:2, 0:2, 1:1, 0:4, 1:1, 0:1, 1:2, 0:1, 1:2, 0:5, 1:2, 0:7, 1:7, 0:2, 1:1, 0:2, 1:2, 0:1, 1:3, 0:3, 1:1, 0:2, 1:2, 0:1, 1:1, 0:1, 1:2, 0:1, 1:2, 0:1, 1:7, 0:2, 1:1, 0:1, 1:2, 0:2, 1:1, 0:1, 1:2, 0:1, 1:1, 0:2, 1:10, 0:3, 1:1, 0:1, 1:1, 0:1, 1:1, 0:1, 1:2, 0:1, 1:1, 0:2, 1:4, 0:1, 1:6, 0:1, 1:4, 0:3, 1:3, 0:1, 1:7, 0:1, 1:1, 0:1, 1:3, 0:1, 1:1, 0:2, 1:1, 0:1, 1:1, 0:4, 1:1, 0:9, 1:1, 0:1, 1:1, 0:1, 1:1, 0:1, 1:4, 0:2, 1:1, 0:2, 1:1, 0:1, 1:1, 0:5, 1:2, 0:1, 1:1, 0:1, 1:2, 0:2, 1:2, 0:2, 1:1, 0:1, 1:2, 0:1, 1:1, 0:1, 1:1, 0:1, 1:5, 0:1, 1:1, 0:3, 1:2, 0:2, 1:4, 0:1, 1:2, 0:2, 1:1, 0:2, 1:1, 0:4, 1:1, 0:2, 1:1, 0:5, 1:1, 0:1, 1:4, 0:4, 1:2, 0:1, 1:1, 0:1, 1:1, 0:1, 1:1, 0:1, 1:1, 0:2, 1:2, 0:2, 1:2, 0:2, 1:2, 0:2, 1:1, 0:2, 1:2, 0:9, 1:1, 0:3, 1:2, 0:4, 1:1, 0:2, 1:2, 0:7, 1:2, 0:7, 1:1, 0:3, 1:1, 0:2, 1:2, 0:4, 1:1, 0:3, 1:1, 0:1, 1:1, 0:2, 1:2, 0:3, 1:2, 0:3, 1:1, 0:7, 1:1, 0:1, 1:1, 0:12, 1:1, 0:1, 1:1, 0:1, 1:1, 0:4, 1:1, 0:2, 1:1, 0:3, 1:1, 0:2, 1:3"
+    },
+    "spatial": {
+      "otsu": 129.3257027838428,
+      "bits_len": 480,
+      "pad": 0,
+      "hex": "0000000000000000000000000000003fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000",
+      "rle": "0:122, 1:246, 0:112"
+    }
+  },
+  "beaconB": {
+    "method": "digital_s2_minus_s1",
+    "preamble_bits": "10101010",
+    "preamble_len": 8,
+    "target_bits": "01001111101001011",
+    "baliza1_bits": "110100111110",
+    "baliza2_bits": "01001111101001011",
+    "target_len": 17,
+    "baliza1_len": 12,
+    "baliza2_len": 17,
+    "preamble_source": "ui_confirmed",
+    "led_status": {
+      "bits": "10101010",
+      "detected_live": true,
+      "state": "found",
+      "label": "DETECTADO",
+      "color": "#2ecc71"
+    },
+    "target_led_status": {
+      "bits": "01001111101001011",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "bit_dur_s": 3.0,
+    "rollmed_sec": 30.0,
+    "dt_est_s": 0.6,
+    "samples_per_bit": 5,
+    "bits_len": 321,
+    "invalid_bits_count": 0,
+    "invalid_bits_frac": 0.0,
+    "sample_invalid_count": 0,
+    "sample_invalid_frac": 0.0,
+    "tail_trim": {
+      "enabled": true,
+      "applied": false,
+      "idle_min_sec": 120.0,
+      "trimmed_samples": 0,
+      "trimmed_seconds": 0.0,
+      "tail_dt_est_s": 0.6152637004852295,
+      "reason": "tail_short"
+    },
+    "env_gate": {
+      "enabled": true,
+      "warmup_sec": 60.0,
+      "z_thr": 8.0,
+      "n_samples": 1603,
+      "n_env_samples": 1603,
+      "matched": 1506,
+      "invalid_samples": 0,
+      "invalid_frac": 0.0,
+      "metrics": {
+        "lux": {
+          "ok": false,
+          "reason": "few_samples"
+        },
+        "acc": {
+          "ok": true,
+          "med": 0.0,
+          "sigma": 0.0,
+          "thr": 0.15
+        },
+        "rot": {
+          "ok": true,
+          "med": 0.0,
+          "sigma": 0.0,
+          "thr": 5.0
+        },
+        "ldr": {
+          "ok": true,
+          "med": 54.0,
+          "sigma": 35.5824,
+          "thr": 284.6592
+        }
+      },
+      "reason": "ok"
+    },
+    "best": null
+  },
+  "beaconB_visual": {
+    "method": "visual_roi_ratio_waterfall",
+    "target_bits": "01001111101001011",
+    "baliza1_bits": "110100111110",
+    "baliza2_bits": "01001111101001011",
+    "target_len": 17,
+    "baliza1_len": 12,
+    "baliza2_len": 17,
+    "roi_frac": 0.34,
+    "dt_est_s": 0.6242207759051186,
+    "rows_per_bit": 5,
+    "bits_len": 321,
+    "best": null
+  },
+  "h3v0": {
+    "enabled": true,
+    "clock_mode": "fixed",
+    "tbit_s": 3.0,
+    "thr_d2": 12.0,
+    "thr_d3_max": 12.0,
+    "use_s3_gate": false,
+    "ctrl_thr_d3": 12.0,
+    "ctrl_thr_d2_max": 12.0,
+    "require_s4_on": false,
+    "summary_file": null,
+    "bitstream_file": null
+  },
+  "files": {
+    "txt": "CODIGO_20260306_153140.txt",
+    "dataset_csv": "CODIGO_20260306_153140_dataset.csv",
+    "temporal_profile_csv": "CODIGO_20260306_153140_temporal_profile.csv",
+    "spatial_profile_csv": "CODIGO_20260306_153140_spatial_profile.csv",
+    "beaconB_signal_csv": "CODIGO_20260306_153140_beaconB_signal.csv",
+    "beaconB_bits_csv": "CODIGO_20260306_153140_beaconB_bits.csv",
+    "beaconB_visual_signal_csv": "CODIGO_20260306_153140_beaconB_visual_signal.csv",
+    "beaconB_visual_bits_csv": "CODIGO_20260306_153140_beaconB_visual_bits.csv",
+    "h3v0_bitstream_csv": null,
+    "h3v0_summary_json": null,
+    "meta_json": "CODIGO_20260306_153140_meta.json",
+    "waterfall_png": "CODIGO_20260306_153140_waterfall.png",
+    "snapshot_png": "CODIGO_20260306_153140_snapshot.png",
+    "quantum_contact_data_csv": "CODIGO_20260306_153140_quantum_contact_data.csv",
+    "quantum_contact_data_plain_csv": "quantum_contact_data.csv",
+    "analysis_pdf": "CODIGO_20260306_153140_analisis_sesion_beaconB.pdf",
+    "analysis_json": "CODIGO_20260306_153140_analisis_sesion_beaconB.json",
+    "session_pack_zip": "CODIGO_20260306_153140_PACK.zip"
+  },
+  "script": "sistema_revisado_h3_CORREGIDO18_fixbalizas_GITHUB_CODIGOS.py",
+  "session_time_integrity": {
+    "status": "warn",
+    "label": "REVISAR",
+    "expected_s": 961.8,
+    "actual_s": 1000.0,
+    "gap_s": 38.200000000000045,
+    "gap_pct": 3.9717196922437146,
+    "reasons": [
+      "Desfase temporal moderado: 38.2s (3.97%)."
+    ],
+    "profile": "QC-time-v1"
+  },
+  "exports_summary": {
+    "session_dir": "C:\\Users\\jsbae\\Desktop\\Quantum_contact\\codigos\\20260306\\CODIGO_20260306_153140",
+    "pack_zip_created": true,
+    "pack_zip": "CODIGO_20260306_153140_PACK.zip",
+    "analysis_pdf_created": true,
+    "analysis_json_created": true
+  }
+}

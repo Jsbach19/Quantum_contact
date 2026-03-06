@@ -1,0 +1,6 @@
+# Generado automáticamente por Quantum Contact
+*.csv
+*_input_copy.csv
+*_raw*.csv
+*.tmp
+__pycache__/
