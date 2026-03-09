@@ -1,0 +1,446 @@
+{
+  "base": "CODIGO_20260309_145717",
+  "created_at": "2026-03-09T15:15:44",
+  "started_at": "2026-03-09T14:59:00",
+  "ended_at": "2026-03-09T15:15:40",
+  "duration_s": 1000.205818,
+  "n_rows": 1500,
+  "n_cols": 480,
+  "poll_ms": 600,
+  "source": {
+    "host": "http://127.0.0.1:5000",
+    "path": "/api/latest",
+    "csv_path": null,
+    "autofind": false
+  },
+  "ambient_sensors_behavior": {
+    "captured": true,
+    "n_samples": 1405,
+    "n_samples_raw": 1500,
+    "n_samples_after_warmup": 1405,
+    "warmup_sec_applied": 60.0,
+    "warmup_idx": 95,
+    "dt_est_s": 0.6287343502044678,
+    "t_start_s": 65.28073692321777,
+    "t_end_s": 999.3798341751099,
+    "span_s": 934.0990972518921,
+    "s4_counts": {
+      "0": 1405,
+      "1": 0
+    },
+    "s4_counts_env_valid": {
+      "0": 1405,
+      "1": 0
+    },
+    "summary": {
+      "lux": {
+        "n_total": 1405,
+        "n_valid": 0,
+        "n_invalid": 1405,
+        "valid_pct": 0.0,
+        "status": "not_measured",
+        "reason": "Sensor lux no medido/no disponible (valores 0 tras warm-up)."
+      },
+      "temp_c": {
+        "n_total": 1405,
+        "n_valid": 1405,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 23.72,
+        "last": 23.92,
+        "delta": 0.20000000000000284,
+        "mean": 23.840690391459074,
+        "std": 0.07178945117040658,
+        "median": 23.85,
+        "mad": 0.0400000000000027,
+        "min": 23.65,
+        "max": 23.96,
+        "range": 0.3100000000000023,
+        "trend": "rising",
+        "variability": "low",
+        "slope_per_min": 0.012846602716247154,
+        "t_start_valid_s": 65.28073692321777,
+        "t_end_valid_s": 999.3798341751099,
+        "span_valid_s": 934.0990972518921
+      },
+      "acc_mag_m_s2": {
+        "n_total": 1405,
+        "n_valid": 1405,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 0.0,
+        "last": 0.0,
+        "delta": 0.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "mad": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "trend": "stable",
+        "variability": "unknown",
+        "slope_per_min": 0.0,
+        "t_start_valid_s": 65.28073692321777,
+        "t_end_valid_s": 999.3798341751099,
+        "span_valid_s": 934.0990972518921
+      },
+      "rot_mag_deg_s": {
+        "n_total": 1405,
+        "n_valid": 1405,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 0.0,
+        "last": 0.0,
+        "delta": 0.0,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "mad": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "range": 0.0,
+        "trend": "stable",
+        "variability": "unknown",
+        "slope_per_min": 0.0,
+        "t_start_valid_s": 65.28073692321777,
+        "t_end_valid_s": 999.3798341751099,
+        "span_valid_s": 934.0990972518921
+      },
+      "ldr_raw": {
+        "n_total": 1405,
+        "n_valid": 585,
+        "n_invalid": 820,
+        "valid_pct": 41.637010676156585,
+        "status": "ok",
+        "first": 61.0,
+        "last": 15.0,
+        "delta": -46.0,
+        "mean": 41.55897435897436,
+        "std": 25.505110130753714,
+        "median": 44.0,
+        "mad": 23.0,
+        "min": 1.0,
+        "max": 96.0,
+        "range": 95.0,
+        "trend": "falling",
+        "variability": "high",
+        "slope_per_min": -2.954718624736803,
+        "t_start_valid_s": 65.28073692321777,
+        "t_end_valid_s": 999.3798341751099,
+        "span_valid_s": 934.0990972518921
+      }
+    },
+    "by_s4_mean": {
+      "s4_0": {
+        "n": 1405,
+        "lux": 0.0,
+        "temp_c": 23.840690391459074,
+        "acc_mag_m_s2": 0.0,
+        "rot_mag_deg_s": 0.0,
+        "ldr_raw": 17.303914590747333
+      },
+      "s4_1": {
+        "n": 0,
+        "lux": null,
+        "temp_c": null,
+        "acc_mag_m_s2": null,
+        "rot_mag_deg_s": null,
+        "ldr_raw": null
+      }
+    },
+    "last_snapshot": {
+      "lux": 0.0,
+      "temp_c": 23.92,
+      "acc_mag_m_s2": 0.0,
+      "rot_mag_deg_s": 0.0,
+      "ldr_raw": 15.0,
+      "s4": 0
+    },
+    "stability_semaphore_qc_env": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "Luz: no medido/no disponible (no penaliza semaforo)."
+      ],
+      "threshold_profile": "QC-env-v2",
+      "n_samples": 1405,
+      "n_samples_raw": 1500,
+      "n_samples_after_warmup": 1405,
+      "span_s": 934.0990972518921
+    },
+    "ldr_bar_snapshot": {
+      "status": "stable",
+      "label": "ESTABLE (OK para experimento)",
+      "color": "#6dd17a",
+      "value": 15.0,
+      "delta": 15.0,
+      "metrics": {
+        "n": 90,
+        "std": 27.691474821283496,
+        "span": 92.0,
+        "drift": 0.0722054175475499,
+        "p95_dv": 75.6
+      },
+      "baseline_ready": true
+    },
+    "stability_semaphore_ldr_bar": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=27.7, span=92, drift=+0.07 ADC/s, p95Δ=76",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 27.691474821283496,
+        "span": 92.0,
+        "drift": 0.0722054175475499,
+        "p95_dv": 75.6
+      },
+      "ldr_value": 15.0,
+      "ldr_delta": 15.0
+    },
+    "stability_semaphore": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=27.7, span=92, drift=+0.07 ADC/s, p95Δ=76",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 27.691474821283496,
+        "span": 92.0,
+        "drift": 0.0722054175475499,
+        "p95_dv": 75.6
+      },
+      "ldr_value": 15.0,
+      "ldr_delta": 15.0,
+      "fallback_qc_env": {
+        "status": "stable",
+        "label": "ESTABLE",
+        "score": 0,
+        "defendible_env": true,
+        "reasons": [
+          "Luz: no medido/no disponible (no penaliza semaforo)."
+        ],
+        "threshold_profile": "QC-env-v2",
+        "n_samples": 1405,
+        "n_samples_raw": 1500,
+        "n_samples_after_warmup": 1405,
+        "span_s": 934.0990972518921
+      }
+    }
+  },
+  "code_detector": {
+    "coding_active": false,
+    "finished": true,
+    "preamble": {
+      "bits": "1001010101",
+      "detected_live": true,
+      "state": "found",
+      "label": "DETECTADO",
+      "color": "#2ecc71"
+    },
+    "baliza1": {
+      "bits": "1101011110",
+      "detected_live": true,
+      "state": "found",
+      "label": "DETECTADO",
+      "color": "#2ecc71"
+    },
+    "baliza2": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    }
+  },
+  "barcodes": {
+    "temporal": {
+      "otsu": 127.21414388020834,
+      "bits_len": 1500,
+      "pad": 4,
+      "hex": "defffdf7fffffdfffdf6d7ef9fffffb7fcb8e777bee2f7fb7ffff7beffcffffbff7fd3cbfdfffedffff79b3fffbdffffef7ffbfb7fbf155baf8ddfdf7cf7ffd7b77edcff7ff4ffffff5dfdfffcdd3e9cef14e4f5eecde57717cdeb7ebffbffff8cfe5fd9cffffffdfffffdfffffffdffffefff97bffcffdfeff164ff05f7ff5bfea3efffbd6ddd7d3feffef7edddfedafffff5ddf9efa9eb8efddff3efcefff6fffffbff3fffdfba2fad7dd5f6a4ffe4ff6779fbbed39bf3d88eaff0",
+      "rle": "1:2, 0:1, 1:4, 0:1, 1:14, 0:1, 1:5, 0:1, 1:25, 0:1, 1:15, 0:1, 1:5, 0:1, 1:2, 0:1, 1:2, 0:1, 1:1, 0:1, 1:6, 0:1, 1:5, 0:2, 1:22, 0:1, 1:2, 0:1, 1:9, 0:2, 1:1, 0:1, 1:3, 0:3, 1:3, 0:2, 1:3, 0:1, 1:3, 0:1, 1:4, 0:1, 1:5, 0:1, 1:3, 0:3, 1:1, 0:1, 1:4, 0:1, 1:8, 0:1, 1:2, 0:1, 1:19, 0:1, 1:4, 0:1, 1:5, 0:1, 1:10, 0:2, 1:17, 0:1, 1:10, 0:1, 1:9, 0:1, 1:1, 0:2, 1:4, 0:2, 1:1, 0:1, 1:8, 0:1, 1:16, 0:1, 1:2, 0:1, 1:17, 0:1, 1:4, 0:2, 1:2, 0:1, 1:2, 0:2, 1:15, 0:1, 1:4, 0:1, 1:20, 0:1, 1:4, 0:1, 1:12, 0:1, 1:7, 0:1, 1:2, 0:1, 1:8, 0:1, 1:6, 0:3, 1:1, 0:1, 1:1, 0:1, 1:1, 0:1, 1:1, 0:1, 1:2, 0:1, 1:3, 0:1, 1:1, 0:1, 1:5, 0:3, 1:2, 0:1, 1:3, 0:1, 1:7, 0:1, 1:5, 0:1, 1:5, 0:2, 1:4, 0:1, 1:13, 0:1, 1:1, 0:1, 1:4, 0:1, 1:2, 0:1, 1:3, 0:1, 1:6, 0:1, 1:2, 0:1, 1:3, 0:2, 1:8, 0:1, 1:11, 0:1, 1:1, 0:2, 1:24, 0:1, 1:1, 0:1, 1:3, 0:1, 1:7, 0:1, 1:15, 0:2, 1:2, 0:1, 1:3, 0:1, 1:1, 0:2, 1:5, 0:1, 1:1, 0:2, 1:3, 0:2, 1:3, 0:1, 1:4, 0:3, 1:1, 0:1, 1:1, 0:2, 1:3, 0:2, 1:1, 0:2, 1:4, 0:1, 1:1, 0:1, 1:4, 0:1, 1:3, 0:1, 1:2, 0:2, 1:2, 0:1, 1:4, 0:2, 1:1, 0:1, 1:1, 0:1, 1:3, 0:1, 1:3, 0:3, 1:1, 0:1, 1:5, 0:2, 1:2, 0:1, 1:4, 0:1, 1:1, 0:1, 1:2, 0:1, 1:6, 0:1, 1:1, 0:1, 1:11, 0:1, 1:19, 0:3, 1:2, 0:2, 1:7, 0:2, 1:1, 0:1, 1:7, 0:1, 1:2, 0:2, 1:3, 0:2, 1:26, 0:1, 1:23, 0:1, 1:31, 0:1, 1:20, 0:1, 1:13, 0:2, 1:1, 0:1, 1:4, 0:1, 1:12, 0:2, 1:10, 0:1, 1:8, 0:1, 1:8, 0:3, 1:1, 0:1, 1:2, 0:2, 1:1, 0:2, 1:8, 0:5, 1:1, 0:1, 1:5, 0:1, 1:11, 0:1, 1:1, 0:1, 1:2, 0:1, 1:9, 0:1, 1:1, 0:1, 1:1, 0:3, 1:5, 0:1, 1:13, 0:1, 1:4, 0:1, 1:1, 0:1, 1:2, 0:1, 1:2, 0:1, 1:3, 0:1, 1:3, 0:1, 1:1, 0:1, 1:5, 0:1, 1:1, 0:2, 1:9, 0:1, 1:11, 0:1, 1:4, 0:1, 1:6, 0:1, 1:2, 0:1, 1:3, 0:1, 1:3, 0:1, 1:8, 0:1, 1:2, 0:1, 1:2, 0:1, 1:1, 0:1, 1:20, 0:1, 1:1, 0:1, 1:3, 0:1, 1:3, 0:1, 1:6, 0:2, 1:4, 0:1, 1:5, 0:1, 1:1, 0:1, 1:1, 0:2, 1:4, 0:1, 1:1, 0:1, 1:3, 0:3, 1:3, 0:1, 1:6, 0:1, 1:3, 0:1, 1:9, 0:2, 1:5, 0:1, 1:6, 0:2, 1:3, 0:1, 1:12, 0:1, 1:2, 0:1, 1:21, 0:1, 1:10, 0:2, 1:16, 0:1, 1:6, 0:1, 1:3, 0:1, 1:1, 0:3, 1:1, 0:1, 1:5, 0:1, 1:1, 0:1, 1:2, 0:1, 1:1, 0:1, 1:5, 0:1, 1:3, 0:1, 1:1, 0:1, 1:1, 0:1, 1:5, 0:1, 1:2, 0:1, 1:1, 0:1, 1:1, 0:2, 1:1, 0:2, 1:11, 0:2, 1:1, 0:2, 1:8, 0:1, 1:2, 0:2, 1:3, 0:1, 1:4, 0:2, 1:6, 0:1, 1:3, 0:1, 1:5, 0:1, 1:2, 0:1, 1:1, 0:2, 1:3, 0:2, 1:2, 0:1, 1:6, 0:2, 1:4, 0:1, 1:2, 0:3, 1:1, 0:3, 1:3, 0:1, 1:1, 0:1, 1:1, 0:1, 1:8"
+    },
+    "spatial": {
+      "otsu": 124.611265625,
+      "bits_len": 480,
+      "pad": 0,
+      "hex": "000000000000000000000000000003ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe00000000000000000000000000000",
+      "rle": "0:118, 1:245, 0:117"
+    }
+  },
+  "beaconB": {
+    "method": "digital_s2_minus_s1",
+    "preamble_bits": "1001010101",
+    "preamble_len": 10,
+    "target_bits": "011010011010011010",
+    "baliza1_bits": "1101011110",
+    "baliza2_bits": "011010011010011010",
+    "target_len": 18,
+    "baliza1_len": 10,
+    "baliza2_len": 18,
+    "preamble_source": "ui_confirmed",
+    "led_status": {
+      "bits": "1001010101",
+      "detected_live": true,
+      "state": "found",
+      "label": "DETECTADO",
+      "color": "#2ecc71"
+    },
+    "target_led_status": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "bit_dur_s": 6.0,
+    "rollmed_sec": 12.0,
+    "dt_est_s": 0.6,
+    "samples_per_bit": 10,
+    "bits_len": 150,
+    "invalid_bits_count": 0,
+    "invalid_bits_frac": 0.0,
+    "sample_invalid_count": 0,
+    "sample_invalid_frac": 0.0,
+    "tail_trim": {
+      "enabled": true,
+      "applied": false,
+      "idle_min_sec": 120.0,
+      "trimmed_samples": 0,
+      "trimmed_seconds": 0.0,
+      "tail_dt_est_s": 0.6266748905181885,
+      "reason": "tail_short"
+    },
+    "env_gate": {
+      "enabled": true,
+      "warmup_sec": 60.0,
+      "z_thr": 8.0,
+      "n_samples": 1500,
+      "n_env_samples": 1500,
+      "matched": 1413,
+      "invalid_samples": 0,
+      "invalid_frac": 0.0,
+      "metrics": {
+        "lux": {
+          "ok": false,
+          "reason": "few_samples"
+        },
+        "acc": {
+          "ok": true,
+          "med": 0.0,
+          "sigma": 0.0,
+          "thr": 0.15
+        },
+        "rot": {
+          "ok": true,
+          "med": 0.0,
+          "sigma": 0.0,
+          "thr": 5.0
+        },
+        "ldr": {
+          "ok": true,
+          "med": 44.0,
+          "sigma": 34.099799999999995,
+          "thr": 272.79839999999996
+        }
+      },
+      "reason": "ok"
+    },
+    "best": null
+  },
+  "beaconB_visual": {
+    "method": "visual_roi_ratio_waterfall",
+    "target_bits": "011010011010011010",
+    "baliza1_bits": "1101011110",
+    "baliza2_bits": "011010011010011010",
+    "target_len": 18,
+    "baliza1_len": 10,
+    "baliza2_len": 18,
+    "roi_frac": 0.34,
+    "dt_est_s": 0.6672487111407606,
+    "rows_per_bit": 9,
+    "bits_len": 167,
+    "best": null
+  },
+  "h3v0": {
+    "enabled": true,
+    "clock_mode": "fixed",
+    "tbit_s": 6.0,
+    "thr_d2": 12.0,
+    "thr_d3_max": 12.0,
+    "use_s3_gate": false,
+    "ctrl_thr_d3": 12.0,
+    "ctrl_thr_d2_max": 12.0,
+    "require_s4_on": false,
+    "summary_file": null,
+    "bitstream_file": null
+  },
+  "files": {
+    "txt": "CODIGO_20260309_145717.txt",
+    "dataset_csv": "CODIGO_20260309_145717_dataset.csv",
+    "temporal_profile_csv": "CODIGO_20260309_145717_temporal_profile.csv",
+    "spatial_profile_csv": "CODIGO_20260309_145717_spatial_profile.csv",
+    "beaconB_signal_csv": "CODIGO_20260309_145717_beaconB_signal.csv",
+    "beaconB_bits_csv": "CODIGO_20260309_145717_beaconB_bits.csv",
+    "beaconB_visual_signal_csv": "CODIGO_20260309_145717_beaconB_visual_signal.csv",
+    "beaconB_visual_bits_csv": "CODIGO_20260309_145717_beaconB_visual_bits.csv",
+    "h3v0_bitstream_csv": null,
+    "h3v0_summary_json": null,
+    "meta_json": "CODIGO_20260309_145717_meta.json",
+    "waterfall_png": "CODIGO_20260309_145717_waterfall.png",
+    "snapshot_png": "CODIGO_20260309_145717_snapshot.png",
+    "quantum_contact_data_csv": "CODIGO_20260309_145717_quantum_contact_data.csv",
+    "quantum_contact_data_plain_csv": "quantum_contact_data.csv",
+    "analysis_pdf": "CODIGO_20260309_145717_analisis_sesion_beaconB.pdf",
+    "analysis_json": "CODIGO_20260309_145717_analisis_sesion_beaconB.json",
+    "session_pack_zip": null
+  },
+  "script": "sistema_v8.py",
+  "session_time_integrity": {
+    "status": "fail",
+    "label": "COMPROMETIDA",
+    "expected_s": 900.0,
+    "actual_s": 1000.0,
+    "gap_s": 100.0,
+    "gap_pct": 11.11111111111111,
+    "reasons": [
+      "Desfase temporal alto: 100.0s (11.11%)."
+    ],
+    "profile": "QC-time-v1"
+  },
+  "exports_summary": {
+    "session_dir": "C:\\Users\\jsbae\\Desktop\\Quantum_contact\\codigos\\20260309\\CODIGO_20260309_145717",
+    "pack_zip_created": false,
+    "pack_zip": null,
+    "analysis_pdf_created": true,
+    "analysis_json_created": true
+  }
+}
