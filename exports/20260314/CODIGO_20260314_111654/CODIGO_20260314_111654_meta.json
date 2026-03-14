@@ -1,0 +1,470 @@
+{
+  "base": "CODIGO_20260314_111654",
+  "created_at": "2026-03-14T11:26:20",
+  "started_at": "2026-03-14T11:18:00",
+  "ended_at": "2026-03-14T11:26:20",
+  "duration_s": 500.001203,
+  "n_rows": 745,
+  "n_cols": 480,
+  "poll_ms": 600,
+  "source": {
+    "host": "http://127.0.0.1:5000",
+    "path": "/api/latest",
+    "csv_path": null,
+    "autofind": false
+  },
+  "ambient_sensors_behavior": {
+    "captured": true,
+    "n_samples": 648,
+    "n_samples_raw": 745,
+    "n_samples_after_warmup": 648,
+    "warmup_sec_applied": 60.0,
+    "warmup_idx": 97,
+    "dt_est_s": 0.6203100681304932,
+    "t_start_s": 63.751774072647095,
+    "t_end_s": 499.4860053062439,
+    "span_s": 435.7342312335968,
+    "s4_counts": {
+      "0": 613,
+      "1": 35
+    },
+    "s4_counts_env_valid": {
+      "0": 613,
+      "1": 35
+    },
+    "summary": {
+      "lux": {
+        "n_total": 648,
+        "n_valid": 648,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 655.9,
+        "last": 323.8,
+        "delta": -332.09999999999997,
+        "mean": 330.81126543209876,
+        "std": 201.3414218232985,
+        "median": 293.3,
+        "mad": 172.45000000000002,
+        "min": 48.8,
+        "max": 663.2,
+        "range": 614.4000000000001,
+        "trend": "falling",
+        "variability": "high",
+        "slope_per_min": -45.7297099279714,
+        "t_start_valid_s": 63.751774072647095,
+        "t_end_valid_s": 499.4860053062439,
+        "span_valid_s": 435.7342312335968
+      },
+      "temp_c": {
+        "n_total": 648,
+        "n_valid": 648,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 26.89,
+        "last": 26.91,
+        "delta": 0.019999999999999574,
+        "mean": 26.778966049382717,
+        "std": 0.05230110263726075,
+        "median": 26.78,
+        "mad": 0.0400000000000027,
+        "min": 26.63,
+        "max": 27.07,
+        "range": 0.4400000000000013,
+        "trend": "stable",
+        "variability": "low",
+        "slope_per_min": 0.0027539722931629288,
+        "t_start_valid_s": 63.751774072647095,
+        "t_end_valid_s": 499.4860053062439,
+        "span_valid_s": 435.7342312335968
+      },
+      "acc_mag_m_s2": {
+        "n_total": 648,
+        "n_valid": 648,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 10.085246452120048,
+        "last": 10.127216053782995,
+        "delta": 0.04196960166294694,
+        "mean": 10.109903527122876,
+        "std": 0.021253807003208273,
+        "median": 10.110768912386588,
+        "mad": 0.015011486740506896,
+        "min": 10.04681133494603,
+        "max": 10.164605157112597,
+        "range": 0.11779382216656664,
+        "trend": "rising",
+        "variability": "low",
+        "slope_per_min": 0.005779156006742156,
+        "t_start_valid_s": 63.751774072647095,
+        "t_end_valid_s": 499.4860053062439,
+        "span_valid_s": 435.7342312335968
+      },
+      "rot_mag_deg_s": {
+        "n_total": 648,
+        "n_valid": 648,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 0.029257477676655586,
+        "last": 0.028809720581775868,
+        "delta": -0.0004477570948797187,
+        "mean": 0.02914742919238185,
+        "std": 0.002711512098566772,
+        "median": 0.028661819968725855,
+        "mad": 0.0008949332148962125,
+        "min": 0.0,
+        "max": 0.04395452195167182,
+        "range": 0.04395452195167182,
+        "trend": "stable",
+        "variability": "high",
+        "slope_per_min": -6.16555316682948e-05,
+        "t_start_valid_s": 63.751774072647095,
+        "t_end_valid_s": 499.4860053062439,
+        "span_valid_s": 435.7342312335968
+      },
+      "ldr_raw": {
+        "n_total": 648,
+        "n_valid": 252,
+        "n_invalid": 396,
+        "valid_pct": 38.888888888888886,
+        "status": "ok",
+        "first": 56.0,
+        "last": 73.0,
+        "delta": 17.0,
+        "mean": 36.17460317460318,
+        "std": 26.057423368224768,
+        "median": 31.5,
+        "mad": 22.5,
+        "min": 1.0,
+        "max": 91.0,
+        "range": 90.0,
+        "trend": "rising",
+        "variability": "high",
+        "slope_per_min": 2.3961848235621623,
+        "t_start_valid_s": 66.53783535957336,
+        "t_end_valid_s": 492.214515209198,
+        "span_valid_s": 425.67667984962463
+      }
+    },
+    "by_s4_mean": {
+      "s4_0": {
+        "n": 613,
+        "lux": 333.62985318107667,
+        "temp_c": 26.7794616639478,
+        "acc_mag_m_s2": 10.110449226021167,
+        "rot_mag_deg_s": 0.029178873816886115,
+        "ldr_raw": 14.35725938009788
+      },
+      "s4_1": {
+        "n": 35,
+        "lux": 281.4457142857143,
+        "temp_c": 26.770285714285716,
+        "acc_mag_m_s2": 10.10034600070424,
+        "rot_mag_deg_s": 0.02859669905463566,
+        "ldr_raw": 9.0
+      }
+    },
+    "last_snapshot": {
+      "lux": 323.8,
+      "temp_c": 26.91,
+      "acc_mag_m_s2": 10.127216053782995,
+      "rot_mag_deg_s": 0.028809720581775868,
+      "ldr_raw": 0.0,
+      "s4": 1
+    },
+    "stability_semaphore_qc_env": {
+      "status": "watch",
+      "label": "REVISAR",
+      "score": 4,
+      "defendible_env": true,
+      "reasons": [
+        "Luz: rango alto (614.400 > 20.0)",
+        "Luz: variabilidad alta (std=201.341 > 5.0)",
+        "Temperatura: rango a vigilar (0.440 > 0.4)",
+        "|a|: rango a vigilar (0.118 > 0.05)"
+      ],
+      "threshold_profile": "QC-env-v2",
+      "n_samples": 648,
+      "n_samples_raw": 745,
+      "n_samples_after_warmup": 648,
+      "span_s": 435.7342312335968
+    },
+    "ldr_bar_snapshot": {
+      "status": "stable",
+      "label": "ESTABLE (OK para experimento)",
+      "color": "#6dd17a",
+      "value": 0.0,
+      "delta": 0.0,
+      "metrics": {
+        "n": 90,
+        "std": 30.228969834977022,
+        "span": 85.0,
+        "drift": -0.10779440016807797,
+        "p95_dv": 64.6
+      },
+      "baseline_ready": true
+    },
+    "stability_semaphore_ldr_bar": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=30.2, span=85, drift=-0.11 ADC/s, p95Δ=65",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 30.228969834977022,
+        "span": 85.0,
+        "drift": -0.10779440016807797,
+        "p95_dv": 64.6
+      },
+      "ldr_value": 0.0,
+      "ldr_delta": 0.0
+    },
+    "stability_semaphore": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=30.2, span=85, drift=-0.11 ADC/s, p95Δ=65",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 30.228969834977022,
+        "span": 85.0,
+        "drift": -0.10779440016807797,
+        "p95_dv": 64.6
+      },
+      "ldr_value": 0.0,
+      "ldr_delta": 0.0,
+      "fallback_qc_env": {
+        "status": "watch",
+        "label": "REVISAR",
+        "score": 4,
+        "defendible_env": true,
+        "reasons": [
+          "Luz: rango alto (614.400 > 20.0)",
+          "Luz: variabilidad alta (std=201.341 > 5.0)",
+          "Temperatura: rango a vigilar (0.440 > 0.4)",
+          "|a|: rango a vigilar (0.118 > 0.05)"
+        ],
+        "threshold_profile": "QC-env-v2",
+        "n_samples": 648,
+        "n_samples_raw": 745,
+        "n_samples_after_warmup": 648,
+        "span_s": 435.7342312335968
+      }
+    }
+  },
+  "code_detector": {
+    "coding_active": false,
+    "finished": true,
+    "preamble": {
+      "bits": "1010101010101010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza1": {
+      "bits": "1101011110110101",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza2": {
+      "bits": "0100111110100101",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza": {
+      "bits": "0100111110100101",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    }
+  },
+  "barcodes": {
+    "temporal": {
+      "otsu": 128.42400716145835,
+      "bits_len": 745,
+      "pad": 7,
+      "hex": "00f00000080100101810030001b184121a01422003d577c0b0c7c280fc4038ed79bfcd07fcff7f3827bf37000716feff8028640ff7f41498787fff2fffce045bcb867f0377e0abff003900c00f2f80c00f8045888800102000a20401c000",
+      "rle": "0:8, 1:4, 0:24, 1:1, 0:10, 1:1, 0:11, 1:1, 0:7, 1:2, 0:6, 1:1, 0:10, 1:2, 0:15, 1:2, 0:1, 1:2, 0:3, 1:2, 0:4, 1:1, 0:5, 1:1, 0:2, 1:1, 0:4, 1:2, 0:1, 1:1, 0:8, 1:1, 0:1, 1:1, 0:4, 1:1, 0:3, 1:1, 0:11, 1:4, 0:1, 1:1, 0:1, 1:1, 0:1, 1:1, 0:1, 1:3, 0:1, 1:5, 0:6, 1:1, 0:1, 1:2, 0:4, 1:2, 0:3, 1:5, 0:4, 1:1, 0:1, 1:1, 0:7, 1:6, 0:3, 1:1, 0:8, 1:3, 0:3, 1:3, 0:1, 1:2, 0:1, 1:1, 0:1, 1:4, 0:2, 1:2, 0:1, 1:8, 0:2, 1:2, 0:1, 1:1, 0:5, 1:9, 0:2, 1:8, 0:1, 1:7, 0:2, 1:3, 0:5, 1:1, 0:2, 1:4, 0:1, 1:6, 0:2, 1:2, 0:1, 1:3, 0:13, 1:3, 0:3, 1:1, 0:1, 1:2, 0:1, 1:7, 0:1, 1:9, 0:9, 1:1, 0:1, 1:1, 0:4, 1:2, 0:2, 1:1, 0:6, 1:8, 0:1, 1:7, 0:1, 1:1, 0:5, 1:1, 0:1, 1:1, 0:2, 1:1, 0:2, 1:2, 0:4, 1:4, 0:4, 1:15, 0:2, 1:1, 0:1, 1:14, 0:2, 1:3, 0:6, 1:1, 0:3, 1:1, 0:1, 1:2, 0:1, 1:4, 0:2, 1:1, 0:1, 1:3, 0:4, 1:2, 0:2, 1:7, 0:6, 1:2, 0:1, 1:3, 0:1, 1:6, 0:5, 1:1, 0:1, 1:1, 0:1, 1:1, 0:1, 1:10, 0:10, 1:3, 0:2, 1:1, 0:8, 1:2, 0:10, 1:4, 0:2, 1:1, 0:1, 1:5, 0:7, 1:2, 0:10, 1:5, 0:8, 1:1, 0:3, 1:1, 0:1, 1:2, 0:3, 1:1, 0:3, 1:1, 0:3, 1:1, 0:14, 1:1, 0:6, 1:1, 0:13, 1:1, 0:1, 1:1, 0:3, 1:1, 0:6, 1:1, 0:9, 1:3, 0:7"
+    },
+    "spatial": {
+      "otsu": 126.16933724832215,
+      "bits_len": 480,
+      "pad": 0,
+      "hex": "000000000000000000000000000003ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc00000000000000000000000000000",
+      "rle": "0:118, 1:244, 0:118"
+    }
+  },
+  "beaconB": {
+    "method": "digital_s2_minus_s1",
+    "preamble_bits": "1010101010101010",
+    "preamble_len": 16,
+    "target_bits": "0100111110100101",
+    "baliza1_bits": "1101011110110101",
+    "baliza2_bits": "0100111110100101",
+    "target_len": 16,
+    "baliza1_len": 16,
+    "baliza2_len": 16,
+    "preamble_source": "ui_confirmed",
+    "led_status": {
+      "bits": "1010101010101010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "target_led_status": {
+      "bits": "0100111110100101",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "bit_dur_s": 3.0,
+    "rollmed_sec": 360.0,
+    "dt_est_s": 0.6,
+    "samples_per_bit": 5,
+    "bits_len": 149,
+    "invalid_bits_count": 0,
+    "invalid_bits_frac": 0.0,
+    "sample_invalid_count": 0,
+    "sample_invalid_frac": 0.0,
+    "tail_trim": {
+      "enabled": true,
+      "applied": false,
+      "idle_min_sec": 120.0,
+      "trimmed_samples": 0,
+      "trimmed_seconds": 0.0,
+      "tail_dt_est_s": 0.6252135038375854,
+      "reason": "tail_not_s4_off"
+    },
+    "env_gate": {
+      "enabled": true,
+      "warmup_sec": 60.0,
+      "z_thr": 8.0,
+      "n_samples": 745,
+      "n_env_samples": 745,
+      "matched": 653,
+      "invalid_samples": 0,
+      "invalid_frac": 0.0,
+      "metrics": {
+        "lux": {
+          "ok": true,
+          "med": 295.0,
+          "sigma": 257.08284,
+          "thr": 2056.66272
+        },
+        "acc": {
+          "ok": true,
+          "med": 10.110751109586271,
+          "sigma": 0.022155327804059818,
+          "thr": 0.17724262243247854
+        },
+        "rot": {
+          "ok": true,
+          "med": 0.0286705423736629,
+          "sigma": 0.0013238856307223473,
+          "thr": 5.0
+        },
+        "ldr": {
+          "ok": true,
+          "med": 31.0,
+          "sigma": 32.6172,
+          "thr": 260.9376
+        }
+      },
+      "reason": "ok"
+    },
+    "best": null
+  },
+  "beaconB_visual": {
+    "method": "visual_roi_ratio_waterfall",
+    "target_bits": "0100111110100101",
+    "baliza1_bits": "1101011110110101",
+    "baliza2_bits": "0100111110100101",
+    "target_len": 16,
+    "baliza1_len": 16,
+    "baliza2_len": 16,
+    "roi_frac": 0.34,
+    "dt_est_s": 0.672044627688172,
+    "rows_per_bit": 4,
+    "bits_len": 187,
+    "best": null
+  },
+  "h3v0": {
+    "enabled": true,
+    "clock_mode": "fixed",
+    "tbit_s": 3.0,
+    "thr_d2": 12.0,
+    "thr_d3_max": 12.0,
+    "use_s3_gate": false,
+    "ctrl_thr_d3": 12.0,
+    "ctrl_thr_d2_max": 12.0,
+    "require_s4_on": false,
+    "summary_file": null,
+    "bitstream_file": null
+  },
+  "files": {
+    "txt": "CODIGO_20260314_111654.txt",
+    "dataset_csv": "CODIGO_20260314_111654_dataset.csv",
+    "temporal_profile_csv": "CODIGO_20260314_111654_temporal_profile.csv",
+    "spatial_profile_csv": "CODIGO_20260314_111654_spatial_profile.csv",
+    "beaconB_signal_csv": "CODIGO_20260314_111654_beaconB_signal.csv",
+    "beaconB_bits_csv": "CODIGO_20260314_111654_beaconB_bits.csv",
+    "beaconB_visual_signal_csv": "CODIGO_20260314_111654_beaconB_visual_signal.csv",
+    "beaconB_visual_bits_csv": "CODIGO_20260314_111654_beaconB_visual_bits.csv",
+    "h3v0_bitstream_csv": null,
+    "h3v0_summary_json": null,
+    "meta_json": "CODIGO_20260314_111654_meta.json",
+    "waterfall_png": "CODIGO_20260314_111654_waterfall.png",
+    "snapshot_png": "CODIGO_20260314_111654_snapshot.png",
+    "quantum_contact_data_csv": "CODIGO_20260314_111654_quantum_contact_data.csv",
+    "quantum_contact_data_plain_csv": "quantum_contact_data.csv",
+    "analysis_pdf": null,
+    "analysis_json": null,
+    "analysis_exploratory_json": null,
+    "session_pack_zip": "CODIGO_20260314_111654_PACK.zip"
+  },
+  "script": "sistema_v17_2_fix_modes.py",
+  "session_time_integrity": {
+    "status": "fail",
+    "label": "COMPROMETIDA",
+    "expected_s": 447.0,
+    "actual_s": 500.0,
+    "gap_s": 53.0,
+    "gap_pct": 11.856823266219239,
+    "reasons": [
+      "Desfase temporal alto: 53.0s (11.86%)."
+    ],
+    "profile": "QC-time-v1"
+  },
+  "exports_summary": {
+    "session_dir": "C:\\Users\\jsbae\\Desktop\\Quantum_contact\\codigos\\20260314\\CODIGO_20260314_111654",
+    "pack_zip_created": true,
+    "pack_zip": "CODIGO_20260314_111654_PACK.zip",
+    "analysis_pdf_created": false,
+    "analysis_json_created": false
+  }
+}
