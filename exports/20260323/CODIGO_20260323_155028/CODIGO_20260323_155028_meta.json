@@ -1,10 +1,10 @@
 {
   "base": "CODIGO_20260323_155028",
-  "created_at": "2026-03-23T16:13:00",
-  "started_at": "2026-03-23T16:08:00",
-  "ended_at": "2026-03-23T16:13:00",
-  "duration_s": 300.027624,
-  "n_rows": 482,
+  "created_at": "2026-03-23T20:26:07",
+  "started_at": "2026-03-23T16:16:00",
+  "ended_at": "2026-03-23T20:26:00",
+  "duration_s": 15000.004342,
+  "n_rows": 24023,
   "n_cols": 480,
   "poll_ms": 600,
   "source": {
@@ -15,148 +15,148 @@
   },
   "ambient_sensors_behavior": {
     "captured": true,
-    "n_samples": 385,
-    "n_samples_raw": 482,
-    "n_samples_after_warmup": 385,
+    "n_samples": 23926,
+    "n_samples_raw": 24023,
+    "n_samples_after_warmup": 23926,
     "warmup_sec_applied": 60.0,
     "warmup_idx": 97,
-    "dt_est_s": 0.6184844970703125,
-    "t_start_s": 60.15319085121155,
-    "t_end_s": 299.5489492416382,
-    "span_s": 239.39575839042664,
+    "dt_est_s": 0.6194665431976318,
+    "t_start_s": 60.87843418121338,
+    "t_end_s": 14999.613942623138,
+    "span_s": 14938.735508441925,
     "s4_counts": {
-      "0": 385,
+      "0": 23926,
       "1": 0
     },
     "s4_counts_env_valid": {
-      "0": 385,
+      "0": 23926,
       "1": 0
     },
     "summary": {
       "lux": {
-        "n_total": 385,
-        "n_valid": 144,
-        "n_invalid": 241,
-        "valid_pct": 37.4025974025974,
+        "n_total": 23926,
+        "n_valid": 8195,
+        "n_invalid": 15731,
+        "valid_pct": 34.25144194600017,
         "status": "ok",
-        "first": 17.6,
-        "last": 1.0,
-        "delta": -16.6,
-        "mean": 12.457638888888889,
-        "std": 6.964591563394844,
-        "median": 13.95,
-        "mad": 4.850000000000001,
+        "first": 11.2,
+        "last": 8.8,
+        "delta": -2.3999999999999986,
+        "mean": 7.8148993288590605,
+        "std": 4.736835885328238,
+        "median": 8.3,
+        "mad": 3.8999999999999986,
         "min": 0.5,
-        "max": 25.4,
-        "range": 24.9,
+        "max": 24.4,
+        "range": 23.9,
         "trend": "falling",
         "variability": "high",
-        "slope_per_min": -4.248479514525012,
-        "t_start_valid_s": 61.38974905014038,
-        "t_end_valid_s": 295.82656264305115,
-        "span_valid_s": 234.43681359291077
+        "slope_per_min": -0.009640172260543017,
+        "t_start_valid_s": 62.12152981758118,
+        "t_end_valid_s": 14999.613942623138,
+        "span_valid_s": 14937.492412805557
       },
       "temp_c": {
-        "n_total": 385,
-        "n_valid": 385,
+        "n_total": 23926,
+        "n_valid": 23926,
         "n_invalid": 0,
         "valid_pct": 100.0,
         "status": "ok",
-        "first": 24.68,
-        "last": 24.68,
-        "delta": 0.0,
-        "mean": 24.768467532467533,
-        "std": 0.07001852143651571,
-        "median": 24.77,
-        "mad": 0.03999999999999915,
-        "min": 24.53,
-        "max": 25.01,
-        "range": 0.4800000000000004,
-        "trend": "stable",
+        "first": 24.66,
+        "last": 23.54,
+        "delta": -1.120000000000001,
+        "mean": 24.083295995987626,
+        "std": 0.4403532199472689,
+        "median": 23.87,
+        "mad": 0.26000000000000156,
+        "min": 23.39,
+        "max": 24.99,
+        "range": 1.5999999999999979,
+        "trend": "falling",
         "variability": "low",
-        "slope_per_min": 0.0,
-        "t_start_valid_s": 60.15319085121155,
-        "t_end_valid_s": 299.5489492416382,
-        "span_valid_s": 239.39575839042664
+        "slope_per_min": -0.00449837270109141,
+        "t_start_valid_s": 60.87843418121338,
+        "t_end_valid_s": 14999.613942623138,
+        "span_valid_s": 14938.735508441925
       },
       "acc_mag_m_s2": {
-        "n_total": 385,
-        "n_valid": 385,
+        "n_total": 23926,
+        "n_valid": 23926,
         "n_invalid": 0,
         "valid_pct": 100.0,
         "status": "ok",
-        "first": 10.103964766367705,
-        "last": 10.08614673698534,
-        "delta": -0.017818029382365097,
-        "mean": 10.091168831402996,
-        "std": 0.020947118839383223,
-        "median": 10.090927608500618,
-        "mad": 0.01403211432856466,
-        "min": 10.032654583907492,
-        "max": 10.155262773557364,
-        "range": 0.1226081896498723,
-        "trend": "falling",
+        "first": 10.085606079953749,
+        "last": 10.094050029596644,
+        "delta": 0.008443949642895632,
+        "mean": 10.090091274790483,
+        "std": 0.020972317539513292,
+        "median": 10.090096084774999,
+        "mad": 0.014296687208733339,
+        "min": 10.004043432532669,
+        "max": 10.17213910640235,
+        "range": 0.16809567386968105,
+        "trend": "stable",
         "variability": "low",
-        "slope_per_min": -0.0044657506470868955,
-        "t_start_valid_s": 60.15319085121155,
-        "t_end_valid_s": 299.5489492416382,
-        "span_valid_s": 239.39575839042664
+        "slope_per_min": 3.3914314788385924e-05,
+        "t_start_valid_s": 60.87843418121338,
+        "t_end_valid_s": 14999.613942623138,
+        "span_valid_s": 14938.735508441925
       },
       "rot_mag_deg_s": {
-        "n_total": 385,
-        "n_valid": 385,
+        "n_total": 23926,
+        "n_valid": 23926,
         "n_invalid": 0,
         "valid_pct": 100.0,
         "status": "ok",
-        "first": 0.02833725463060951,
-        "last": 0.02958039891549808,
-        "delta": 0.0012431442848885726,
-        "mean": 0.02986982596870954,
-        "std": 0.0008904823579003826,
-        "median": 0.02979932885150268,
-        "mad": 0.0005760504590977683,
-        "min": 0.027367864366808017,
-        "max": 0.032588341473600645,
-        "range": 0.005220477106792628,
-        "trend": "rising",
+        "first": 0.03011644069275119,
+        "last": 0.030822070014844882,
+        "delta": 0.0007056293220936913,
+        "mean": 0.029333362168596656,
+        "std": 0.0009107679842937943,
+        "median": 0.02934280150224242,
+        "mad": 0.0006071567615014567,
+        "min": 0.02567099530598687,
+        "max": 0.03289376840679706,
+        "range": 0.007222773100810188,
+        "trend": "stable",
         "variability": "medium",
-        "slope_per_min": 0.0003115705039839049,
-        "t_start_valid_s": 60.15319085121155,
-        "t_end_valid_s": 299.5489492416382,
-        "span_valid_s": 239.39575839042664
+        "slope_per_min": 2.834092571067764e-06,
+        "t_start_valid_s": 60.87843418121338,
+        "t_end_valid_s": 14999.613942623138,
+        "span_valid_s": 14938.735508441925
       },
       "ldr_raw": {
-        "n_total": 385,
-        "n_valid": 144,
-        "n_invalid": 241,
-        "valid_pct": 37.4025974025974,
+        "n_total": 23926,
+        "n_valid": 8195,
+        "n_invalid": 15731,
+        "valid_pct": 34.25144194600017,
         "status": "ok",
-        "first": 36.0,
-        "last": 2.0,
-        "delta": -34.0,
-        "mean": 25.51388888888889,
-        "std": 14.269624500041456,
-        "median": 28.5,
-        "mad": 10.0,
+        "first": 23.0,
+        "last": 18.0,
+        "delta": -5.0,
+        "mean": 15.995485051860891,
+        "std": 9.704423733452883,
+        "median": 17.0,
+        "mad": 8.0,
         "min": 1.0,
-        "max": 52.0,
-        "range": 51.0,
+        "max": 50.0,
+        "range": 49.0,
         "trend": "falling",
         "variability": "high",
-        "slope_per_min": -8.701705029750022,
-        "t_start_valid_s": 61.38974905014038,
-        "t_end_valid_s": 295.82656264305115,
-        "span_valid_s": 234.43681359291077
+        "slope_per_min": -0.02008369220946463,
+        "t_start_valid_s": 62.12152981758118,
+        "t_end_valid_s": 14999.613942623138,
+        "span_valid_s": 14937.492412805557
       }
     },
     "by_s4_mean": {
       "s4_0": {
-        "n": 385,
-        "lux": 4.659480519480519,
-        "temp_c": 24.768467532467533,
-        "acc_mag_m_s2": 10.091168831402996,
-        "rot_mag_deg_s": 0.02986982596870954,
-        "ldr_raw": 9.542857142857143
+        "n": 23926,
+        "lux": 2.6767157067625176,
+        "temp_c": 24.083295995987626,
+        "acc_mag_m_s2": 10.090091274790483,
+        "rot_mag_deg_s": 0.029333362168596656,
+        "ldr_raw": 5.478684276519267
       },
       "s4_1": {
         "n": 0,
@@ -168,41 +168,42 @@
       }
     },
     "last_snapshot": {
-      "lux": 0.0,
-      "temp_c": 24.68,
-      "acc_mag_m_s2": 10.08614673698534,
-      "rot_mag_deg_s": 0.02958039891549808,
-      "ldr_raw": 0.0,
+      "lux": 8.8,
+      "temp_c": 23.54,
+      "acc_mag_m_s2": 10.094050029596644,
+      "rot_mag_deg_s": 0.030822070014844882,
+      "ldr_raw": 18.0,
       "s4": 0
     },
     "stability_semaphore_qc_env": {
       "status": "watch",
       "label": "REVISAR",
-      "score": 2,
+      "score": 3,
       "defendible_env": true,
       "reasons": [
-        "Luz: valid_pct bajo (37.4%).",
-        "Temperatura: rango a vigilar (0.480 > 0.4)",
-        "|a|: rango a vigilar (0.123 > 0.05)"
+        "Luz: valid_pct bajo (34.3%).",
+        "Temperatura: rango alto (1.600 > 1.2)",
+        "Temperatura: variabilidad alta (std=0.440 > 0.35)",
+        "|a|: rango a vigilar (0.168 > 0.05)"
       ],
       "threshold_profile": "QC-env-v2",
-      "n_samples": 385,
-      "n_samples_raw": 482,
-      "n_samples_after_warmup": 385,
-      "span_s": 239.39575839042664
+      "n_samples": 23926,
+      "n_samples_raw": 24023,
+      "n_samples_after_warmup": 23926,
+      "span_s": 14938.735508441925
     },
     "ldr_bar_snapshot": {
       "status": "stable",
       "label": "ESTABLE (OK para experimento)",
       "color": "#6dd17a",
-      "value": 0.0,
-      "delta": 0.0,
+      "value": 18.0,
+      "delta": -13.0,
       "metrics": {
         "n": 90,
-        "std": 14.290979629312753,
-        "span": 49.0,
-        "drift": 0.0025737958045432933,
-        "p95_dv": 40.0
+        "std": 8.58037525439143,
+        "span": 31.0,
+        "drift": 0.038605073914284645,
+        "p95_dv": 24.0
       },
       "baseline_ready": true
     },
@@ -212,7 +213,7 @@
       "score": 0,
       "defendible_env": true,
       "reasons": [
-        "LDR barra: σ=14.3, span=49, drift=+0.00 ADC/s, p95Δ=40",
+        "LDR barra: σ=8.6, span=31, drift=+0.04 ADC/s, p95Δ=24",
         "Dictamen barra LDR: ESTABLE (OK para experimento)"
       ],
       "threshold_profile": "LDR-bar-v1",
@@ -220,13 +221,13 @@
       "baseline_ready": true,
       "ldr_metrics": {
         "n": 90,
-        "std": 14.290979629312753,
-        "span": 49.0,
-        "drift": 0.0025737958045432933,
-        "p95_dv": 40.0
+        "std": 8.58037525439143,
+        "span": 31.0,
+        "drift": 0.038605073914284645,
+        "p95_dv": 24.0
       },
-      "ldr_value": 0.0,
-      "ldr_delta": 0.0
+      "ldr_value": 18.0,
+      "ldr_delta": -13.0
     },
     "stability_semaphore": {
       "status": "stable",
@@ -234,7 +235,7 @@
       "score": 0,
       "defendible_env": true,
       "reasons": [
-        "LDR barra: σ=14.3, span=49, drift=+0.00 ADC/s, p95Δ=40",
+        "LDR barra: σ=8.6, span=31, drift=+0.04 ADC/s, p95Δ=24",
         "Dictamen barra LDR: ESTABLE (OK para experimento)"
       ],
       "threshold_profile": "LDR-bar-v1",
@@ -242,28 +243,29 @@
       "baseline_ready": true,
       "ldr_metrics": {
         "n": 90,
-        "std": 14.290979629312753,
-        "span": 49.0,
-        "drift": 0.0025737958045432933,
-        "p95_dv": 40.0
+        "std": 8.58037525439143,
+        "span": 31.0,
+        "drift": 0.038605073914284645,
+        "p95_dv": 24.0
       },
-      "ldr_value": 0.0,
-      "ldr_delta": 0.0,
+      "ldr_value": 18.0,
+      "ldr_delta": -13.0,
       "fallback_qc_env": {
         "status": "watch",
         "label": "REVISAR",
-        "score": 2,
+        "score": 3,
         "defendible_env": true,
         "reasons": [
-          "Luz: valid_pct bajo (37.4%).",
-          "Temperatura: rango a vigilar (0.480 > 0.4)",
-          "|a|: rango a vigilar (0.123 > 0.05)"
+          "Luz: valid_pct bajo (34.3%).",
+          "Temperatura: rango alto (1.600 > 1.2)",
+          "Temperatura: variabilidad alta (std=0.440 > 0.35)",
+          "|a|: rango a vigilar (0.168 > 0.05)"
         ],
         "threshold_profile": "QC-env-v2",
-        "n_samples": 385,
-        "n_samples_raw": 482,
-        "n_samples_after_warmup": 385,
-        "span_s": 239.39575839042664
+        "n_samples": 23926,
+        "n_samples_raw": 24023,
+        "n_samples_after_warmup": 23926,
+        "span_s": 14938.735508441925
       }
     }
   },
@@ -272,10 +274,10 @@
     "finished": true,
     "preamble": {
       "bits": "10101010",
-      "detected_live": false,
-      "state": "miss",
-      "label": "NO DETECTADO",
-      "color": "#e74c3c"
+      "detected_live": true,
+      "state": "found",
+      "label": "DETECTADO",
+      "color": "#2ecc71"
     },
     "baliza1": {
       "bits": "1101011110",
@@ -301,18 +303,18 @@
   },
   "barcodes": {
     "temporal": {
-      "otsu": 127.22342122395833,
-      "bits_len": 482,
-      "pad": 6,
-      "hex": "bf20f8960bfe7e3ffdff33d743ecb27bbbefbdff3dffff7de5ffff3f7fffcbf6eb9f7fffddf99fffef7ecfcddbaddfeffdfff3cf3fc17fffffdeffcfc0",
-      "rle": "1:1, 0:1, 1:6, 0:2, 1:1, 0:5, 1:5, 0:3, 1:1, 0:2, 1:1, 0:1, 1:2, 0:5, 1:1, 0:1, 1:9, 0:2, 1:6, 0:3, 1:12, 0:1, 1:9, 0:2, 1:2, 0:2, 1:4, 0:1, 1:1, 0:1, 1:3, 0:1, 1:1, 0:4, 1:5, 0:1, 1:2, 0:2, 1:1, 0:1, 1:2, 0:2, 1:1, 0:2, 1:4, 0:1, 1:3, 0:1, 1:3, 0:1, 1:5, 0:1, 1:5, 0:1, 1:4, 0:1, 1:9, 0:2, 1:4, 0:1, 1:17, 0:1, 1:5, 0:1, 1:4, 0:2, 1:1, 0:1, 1:17, 0:2, 1:6, 0:1, 1:17, 0:2, 1:1, 0:1, 1:6, 0:1, 1:2, 0:1, 1:3, 0:1, 1:1, 0:1, 1:3, 0:2, 1:5, 0:1, 1:17, 0:1, 1:3, 0:1, 1:6, 0:2, 1:2, 0:2, 1:16, 0:1, 1:4, 0:1, 1:6, 0:1, 1:2, 0:2, 1:6, 0:2, 1:2, 0:1, 1:3, 0:1, 1:2, 0:1, 1:3, 0:1, 1:1, 0:1, 1:2, 0:1, 1:3, 0:1, 1:8, 0:1, 1:10, 0:1, 1:13, 0:2, 1:4, 0:2, 1:4, 0:2, 1:8, 0:5, 1:1, 0:1, 1:25, 0:1, 1:4, 0:1, 1:10, 0:2, 1:6"
+      "otsu": 128.81404622395831,
+      "bits_len": 24023,
+      "pad": 1,
+      "hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000000000000000000000080000000000000000002000001a0000000000000000000000000000200000000001000010000000300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000010000000000000000000000000000000000000000040020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000400000100000200400488000000000002000000100090400000000400000000000000000000000004000000000000000400000000000000000000000000100000000000000400020000000000000000000000000002000000000000000000000000000000000000000000000000000010080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000028060000804020418000911c45884000781000a2402189102feb6914008c903a10000000000100000010000000000000000000030001700821400d01240081800131000f6b048021001020400100280092000001080000000200804815084d43e3025a22f603aa146cc0907d340882217ecddf4b4650a80fdd5333741ddc2713ae05c4aef34106441881040020000200004e04000060030000440010000000000800002400040000000000000001000304000000410d000800100000080430130000003004195a9b2040200203090208460726503c12f040a894844100a980402405010d04227b5451a80d42120400001040049c4290d4867301df4ffddee355d1db96fdfefcce4fa3461cf3ed2effffffffffffffffffffffffffffffffffeffffebefbf92deb3d5feedc6b76a33fbfe343ffffe3ff77ffffdcfefffffbfaffabfff4fdbf7effbffffffffffffbdfffffbbffefffffffffeff7ffffebe7ffbfff7cbfffbf9eecfefffed3bc4dfbfff7dbaefa7ffffdffffbfffefffffffffffff77ffeffff7ffdffefe7edfdbffff6cf793dfff6fcfca7bffeddedfdfff7ffbfdffffff7bf97dffb4fdfd77d7bfd6fdfcc6ef1ffeef0dfd5ffff397796b9b1a8fbfffbdffffefffbfdffff7f77fff3bfffffffbfd6eb7fff5ffffffbfbefedffdfdffeffdfbf3ffbffefd7fcfefffffffefffffffdffffffdfedfffffdffdefffffffffffffcfffd7fefafbfffffff7ffff5dfbfefffbff7fffffea4e7f97d19bfffff7df9fdbf7e7fffe7ffeefffc7f7c7ff6dffdeffdfdffff7ffe778dffed7eff5f7bbe7f271ff5efeb9fffffce9ffbfdffdfdeffeafd79ff7ff7fffffeffffeefdefffffff7f5ff9fd7ffffffffffffffffffdffef7fffffdfffffffffffffffffffffffbffffffffffffffffffdbc7bffff7fd733fb73fffffffffdfffffffffcdfffbebb56756fff7efadfffefddffffbefffffffffffffdffffffffffffffff2ff7fffff7fffffffffffffffffffdffd7fdff3ffff7ffff6fffffffffffffeffffffffffffffffffffdff7fffffffff7bfbfdfffffffffffffffffffffdffffefffffffffffffffffffffbffffffffffffffffffdffe5effeccbfdfffffffffffdfffffffdfffffffffffffffff7ff7ffffffffffffffffffffffffffffffffff3fffe7efffdffbf7feffffff7ffffcffffffdefffeddfffffffff7fffffffffffbfd7fffffffffffbfbffffffffffffffffffffff7fffffffffffffffffffffe7fffffbfdcfeffebf7fffff7fffefffffdbbfb5fffffefffffffdbffffdfffff7f7efffffefef7fbfffbfbfffdffbffdff7fffeffdfffffbffffffbbefff7f7ffffefffbfffffffffffffffffffffffffffffbffffffffffdff7fffeffefffdffebfffffff7fffffdbfffff7cefedfeffffffefffffffffffefffffdffff7efffffbffffdbf7f7f65fefe7f7cffedffecfefbfffffffdf7f77dfdfdfefdffdfbffeffff6ffefffffdfffffaffeffffbfff7fdfffffdffffdffff7fefffffffffffbf7fffffffffbfffffffffefdfffdfbfff7ffffffbf7f7dfe7ff5fefe9fffffffffd7fffbffffd7fffff79fbffffffdffff7ffefffffffff7fffffdf7efffffffffffffffffffffffffffdfffffaffbfefffdffff7ffefffffafffffffffd6fffbfffbb9fcff2ffffffffffffbeffffffffffffffbfbf7fffffffebffefffff7ffff77d6cfbedbbffe0bff535efcdcb7f35ff1edf7edffbfffefe7f75bf7ffffffff7ffffff7feffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7ffffffffefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdf7fffffffffffffffffffeffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffbffffffffffffffffffffffffffffffffffffdffffffffffffffffffffffffffffffffffffffffffffef77ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7ffffffffffffffffffffffffffffffffffff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7fffdfffffffffffffffefffffffffffffffffffffffffffffffffffff7ffffffffffffffffffdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffffffffffffffffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe",
+      "rle": "0:796, 1:1, 0:99, 1:1, 0:77, 1:1, 0:24, 1:2, 0:1, 1:1, 0:115, 1:1, 0:44, 1:1, 0:19, 1:1, 0:30, 1:2, 0:549, 1:1, 0:481, 1:1, 0:746, 1:1, 0:156, 1:1, 0:165, 1:1, 0:12, 1:1, 0:928, 1:1, 0:1, 1:1, 0:167, 1:1, 0:25, 1:1, 0:22, 1:1, 0:10, 1:1, 0:11, 1:1, 0:2, 1:1, 0:3, 1:1, 0:49, 1:1, 0:28, 1:1, 0:12, 1:1, 0:2, 1:1, 0:5, 1:1, 0:35, 1:1, 0:103, 1:1, 0:63, 1:1, 0:109, 1:1, 0:57, 1:1, 0:16, 1:1, 0:111, 1:1, 0:212, 1:1, 0:8, 1:1, 0:385, 1:1, 0:1, 1:1, 0:8, 1:2, 0:17, 1:1, 0:8, 1:1, 0:8, 1:1, 0:6, 1:1, 0:5, 1:2, 0:15, 1:1, 0:2, 1:1, 0:3, 1:1, 0:3, 1:3, 0:3, 1:1, 0:3, 1:1, 0:1, 1:2, 0:3, 1:1, 0:4, 1:1, 0:15, 1:4, 0:6, 1:1, 0:12, 1:1, 0:1, 1:1, 0:3, 1:1, 0:2, 1:1, 0:8, 1:1, 0:4, 1:2, 0:3, 1:1, 0:2, 1:1, 0:3, 1:1, 0:6, 1:1, 0:1, 1:7, 0:1, 1:1, 0:1, 1:2, 0:1, 1:2, 0:1, 1:1, 0:2, 1:1, 0:3, 1:1, 0:1, 1:1, 0:10, 1:1, 0:3, 1:2, 0:2, 1:1, 0:2, 1:1, 0:6, 1:3, 0:1, 1:1, 0:4, 1:1, 0:43, 1:1, 0:27, 1:1, 0:82, 1:2, 0:15, 1:1, 0:1, 1:3, 0:8, 1:1, 0:5, 1:1, 0:4, 1:1, 0:1, 1:1, 0:10, 1:2, 0:1, 1:1, 0:7, 1:1, 0:2, 1:1, 0:2, 1:1, 0:10, 1:1, 0:6, 1:2, 0:14, 1:1, 0:2, 1:2, 0:3, 1:1, 0:12, 1:4, 0:1, 1:2, 0:1, 1:1, 0:1, 1:2, 0:5, 1:1, 0:2, 1:1, 0:9, 1:1, 0:4, 1:1, 0:11, 1:1, 0:6, 1:1, 0:6, 1:1, 0:13, 1:1, 0:10, 1:1, 0:1, 1:1, 0:11, 1:1, 0:2, 1:1, 0:2, 1:1, 0:24, 1:1, 0:4, 1:1, 0:33, 1:1, 0:9, 1:1, 0:8, 1:1, 0:2, 1:1, 0:6, 1:1, 0:1, 1:1, 0:1, 1:1, 0:4, 1:1, 0:4, 1:1, 0:2, 1:2, 0:1, 1:1, 0:1, 1:1, 0:4, 1:5, 0:3, 1:2, 0:6, 1:1, 0:2, 1:1, 0:1, 1:2, 0:1, 1:1, 0:3, 1:1, 0:3, 1:1, 0:1, 1:4, 0:1, 1:2, 0:7, 1:3, 0:1, 1:1, 0:1, 1:1, 0:1, 1:1, 0:4, 1:1, 0:1, 1:1, 0:3, 1:2, 0:1, 1:2, 0:2, 1:2, 0:6, 1:1, 0:2, 1:1, 0:5, 1:5, 0:1, 1:1, 0:2, 1:2, 0:1, 1:1, 0:6, 1:1, 0:3, 1:1, 0:5, 1:1, 0:3, 1:1, 0:4, 1:1, 0:1, 1:6, 0:1, 1:2, 0:2, 1:2, 0:1, 1:3, 0:1, 1:5, 0:1, 1:1, 0:2, 1:1, 0:1, 1:2, 0:1, 1:1, 0:3, 1:2, 0:2, 1:1, 0:1, 1:1, 0:4, 1:1, 0:1, 1:1, 0:1, 1:1, 0:7, 1:6, 0:1, 1:3, 0:1, 1:1, 0:1, 1:1, 0:1, 1:1, 0:2, 1:2, 0:2, 1:2, 0:2, 1:2, 0:1, 1:3, 0:1, 1:1, 0:5, 1:3, 0:1, 1:3, 0:1, 1:3, 0:4, 1:1, 0:2, 1:3, 0:3, 1:1, 0:2, 1:3, 0:1, 1:1, 0:1, 1:3, 0:6, 1:1, 0:1, 1:3, 0:3, 1:1, 0:2, 1:1, 0:1, 1:1, 0:1, 1:3, 0:1, 1:4, 0:2, 1:2, 0:1, 1:1, 0:5, 1:1, 0:5, 1:2, 0:2, 1:1, 0:3, 1:1, 0:5, 1:2, 0:3, 1:1, 0:6, 1:1, 0:5, 1:1, 0:12, 1:1, 0:19, 1:1, 0:18, 1:1, 0:2, 1:3, 0:6, 1:1, 0:19, 1:2, 0:11, 1:2, 0:17, 1:1, 0:3, 1:1, 0:13, 1:1, 0:40, 1:1, 0:21, 1:1, 0:2, 1:1, 0:15, 1:1, 0:65, 1:1, 0:14, 1:2, 0:5, 1:1, 0:27, 1:1, 0:5, 1:1, 0:4, 1:2, 0:1, 1:1, 0:12, 1:1, 0:14, 1:1, 0:24, 1:1, 0:8, 1:1, 0:4, 1:2, 0:7, 1:1, 0:2, 1:2, 0:26, 1:2, 0:9, 1:1, 0:5, 1:2, 0:2, 1:1, 0:1, 1:1, 0:1, 1:2, 0:1, 1:1, 0:1, 1:1, 0:2, 1:2, 0:1, 1:2, 0:2, 1:1, 0:6, 1:1, 0:8, 1:1, 0:11, 1:1, 0:7, 1:2, 0:4, 1:1, 0:2, 1:1, 0:6, 1:1, 0:5, 1:1, 0:4, 1:1, 0:3, 1:2, 0:6, 1:3, 0:2, 1:1, 0:2, 1:2, 0:2, 1:1, 0:1, 1:1, 0:6, 1:4, 0:5, 1:1, 0:2, 1:1, 0:1, 1:4, 0:5, 1:1, 0:6, 1:1, 0:1, 1:1, 0:1, 1:1, 0:3, 1:1, 0:2, 1:1, 0:1, 1:1, 0:2, 1:1, 0:4, 1:1, 0:3, 1:1, 0:5, 1:1, 0:8, 1:1, 0:1, 1:1, 0:1, 1:1, 0:2, 1:2, 0:8, 1:1, 0:8, 1:1, 0:2, 1:1, 0:7, 1:1, 0:1, 1:1, 0:7, 1:1, 0:4, 1:2, 0:1, 1:1, 0:5, 1:1, 0:4, 1:1, 0:3, 1:1, 0:2, 1:4, 0:1, 1:2, 0:1, 1:1, 0:1, 1:1, 0:1, 1:1, 0:3, 1:1, 0:1, 1:1, 0:3, 1:2, 0:1, 1:1, 0:1, 1:1, 0:7, 1:2, 0:1, 1:1, 0:1, 1:1, 0:4, 1:1, 0:4, 1:1, 0:2, 1:1, 0:6, 1:1, 0:21, 1:1, 0:5, 1:1, 0:11, 1:1, 0:2, 1:1, 0:2, 1:3, 0:3, 1:1, 0:4, 1:1, 0:1, 1:1, 0:2, 1:1, 0:4, 1:2, 0:1, 1:1, 0:1, 1:1, 0:2, 1:1, 0:4, 1:2, 0:2, 1:3, 0:2, 1:2, 0:7, 1:3, 0:1, 1:5, 0:1, 1:1, 0:2, 1:10, 0:1, 1:3, 0:1, 1:4, 0:1, 1:3, 0:3, 1:2, 0:1, 1:1, 0:1, 1:1, 0:1, 1:1, 0:1, 1:3, 0:1, 1:1, 0:3, 1:3, 0:1, 1:2, 0:1, 1:3, 0:2, 1:1, 0:1, 1:2, 0:1, 1:6, 0:1, 1:8, 0:1, 1:6, 0:2, 1:2, 0:2, 1:3, 0:2, 1:1, 0:2, 1:5, 0:1, 1:1, 0:3, 1:2, 0:1, 1:1, 0:3, 1:2, 0:4, 1:3, 0:2, 1:4, 0:2, 1:5, 0:1, 1:2, 0:1, 1:1, 0:2, 1:1, 0:1, 1:3, 0:1, 1:139, 0:1, 1:19, 0:1, 1:1, 0:1, 1:5, 0:1, 1:5, 0:1, 1:7, 0:2, 1:1, 0:2, 1:1, 0:1, 1:2, 0:1, 1:4, 0:1, 1:1, 0:1, 1:2, 0:2, 1:4, 0:1, 1:1, 0:1, 1:1, 0:1, 1:8, 0:1, 1:3, 0:1, 1:2, 0:1, 1:3, 0:3, 1:2, 0:1, 1:1, 0:1, 1:2, 0:1, 1:3, 0:1, 1:2, 0:1, 1:1, 0:1, 1:1, 0:3, 1:2, 0:2, 1:7, 0:1, 1:9, 0:3, 1:2, 0:1, 1:1, 0:4, 1:21, 0:3, 1:10, 0:1, 1:3, 0:1, 1:21, 0:1, 1:3, 0:2, 1:7, 0:1, 1:21, 0:1, 1:7, 0:1, 1:1, 0:1, 1:9, 0:1, 1:1, 0:1, 1:1, 0:1, 1:14, 0:1, 1:1, 0:2, 1:6, 0:1, 1:2, 0:1, 1:6, 0:1, 1:6, 0:1, 1:9, 0:1, 1:51, 0:1, 1:4, 0:1, 1:22, 0:1, 1:3, 0:1, 1:13, 0:1, 1:39, 0:1, 1:8, 0:1, 1:22, 0:1, 1:1, 0:1, 1:5, 0:2, 1:12, 0:1, 1:14, 0:1, 1:5, 0:2, 1:1, 0:1, 1:15, 0:1, 1:7, 0:2, 1:4, 0:1, 1:3, 0:1, 1:2, 0:2, 1:7, 0:1, 1:15, 0:1, 1:2, 0:1, 1:1, 0:2, 1:3, 0:1, 1:4, 0:3, 1:1, 0:2, 1:2, 0:1, 1:6, 0:1, 1:14, 0:1, 1:5, 0:1, 1:2, 0:1, 1:3, 0:1, 1:1, 0:1, 1:3, 0:1, 1:5, 0:1, 1:1, 0:2, 1:21, 0:1, 1:18, 0:1, 1:17, 0:1, 1:52, 0:1, 1:3, 0:1, 1:14, 0:1, 1:16, 0:1, 1:13, 0:1, 1:12, 0:1, 1:7, 0:2, 1:6, 0:1, 1:2, 0:1, 1:7, 0:1, 1:2, 0:1, 1:18, 0:1, 1:2, 0:1, 1:2, 0:2, 1:4, 0:1, 1:4, 0:2, 1:1, 0:2, 1:4, 0:1, 1:13, 0:1, 1:2, 0:1, 1:6, 0:2, 1:6, 0:2, 1:1, 0:1, 1:1, 0:2, 1:4, 0:1, 1:13, 0:1, 1:2, 0:1, 1:3, 0:1, 1:4, 0:1, 1:2, 0:1, 1:7, 0:1, 1:13, 0:1, 1:12, 0:1, 1:8, 0:1, 1:25, 0:1, 1:4, 0:1, 1:7, 0:2, 1:1, 0:1, 1:5, 0:1, 1:10, 0:1, 1:2, 0:1, 1:1, 0:2, 1:6, 0:1, 1:7, 0:1, 1:1, 0:1, 1:3, 0:1, 1:5, 0:1, 1:1, 0:1, 1:4, 0:1, 1:8, 0:1, 1:1, 0:1, 1:2, 0:1, 1:6, 0:1, 1:7, 0:2, 1:2, 0:3, 1:2, 0:1, 1:3, 0:1, 1:4, 0:3, 1:12, 0:1, 1:3, 0:1, 1:4, 0:4, 1:2, 0:1, 1:7, 0:1, 1:1, 0:1, 1:1, 0:1, 1:17, 0:2, 1:3, 0:2, 1:1, 0:1, 1:3, 0:1, 1:4, 0:2, 1:1, 0:1, 1:2, 0:1, 1:1, 0:1, 1:3, 0:2, 1:2, 0:1, 1:2, 0:3, 1:2, 0:1, 1:1, 0:1, 1:1, 0:3, 1:5, 0:1, 1:15, 0:1, 1:4, 0:1, 1:20, 0:1, 1:13, 0:1, 1:8, 0:1, 1:17, 0:1, 1:7, 0:1, 1:3, 0:1, 1:15, 0:2, 1:3, 0:1, 1:31, 0:1, 1:8, 0:1, 1:1, 0:1, 1:2, 0:1, 1:3, 0:1, 1:1, 0:1, 1:2, 0:1, 1:15, 0:1, 1:1, 0:1, 1:26, 0:1, 1:7, 0:1, 1:5, 0:1, 1:7, 0:1, 1:2, 0:1, 1:11, 0:1, 1:7, 0:1, 1:12, 0:1, 1:10, 0:1, 1:6, 0:1, 1:6, 0:2, 1:11, 0:1, 1:13, 0:1, 1:6, 0:1, 1:1, 0:1, 1:9, 0:2, 1:7, 0:1, 1:31, 0:1, 1:30, 0:1, 1:27, 0:1, 1:8, 0:1, 1:2, 0:1, 1:23, 0:1, 1:11, 0:1, 1:4, 0:1, 1:54, 0:2, 1:14, 0:1, 1:1, 0:1, 1:10, 0:1, 1:5, 0:1, 1:1, 0:1, 1:5, 0:1, 1:30, 0:1, 1:19, 0:1, 1:1, 0:1, 1:3, 0:1, 1:6, 0:1, 1:9, 0:1, 1:13, 0:1, 1:10, 0:1, 1:26, 0:1, 1:1, 0:1, 1:1, 0:2, 1:1, 0:2, 1:3, 0:2, 1:8, 0:2, 1:1, 0:1, 1:5, 0:1, 1:1, 0:3, 1:2, 0:2, 1:2, 0:1, 1:22, 0:1, 1:5, 0:1, 1:6, 0:2, 1:7, 0:1, 1:2, 0:1, 1:6, 0:1, 1:6, 0:2, 1:18, 0:2, 1:14, 0:1, 1:3, 0:1, 1:14, 0:3, 1:7, 0:1, 1:5, 0:3, 1:11, 0:1, 1:2, 0:1, 1:2, 0:1, 1:11, 0:1, 1:4, 0:1, 1:10, 0:1, 1:7, 0:1, 1:17, 0:1, 1:14, 0:2, 1:3, 0:1, 1:4, 0:3, 1:2, 0:1, 1:12, 0:1, 1:2, 0:1, 1:1, 0:1, 1:6, 0:1, 1:8, 0:1, 1:1, 0:1, 1:5, 0:1, 1:4, 0:1, 1:3, 0:1, 1:5, 0:2, 1:7, 0:2, 1:1, 0:2, 1:3, 0:3, 1:9, 0:1, 1:1, 0:1, 1:4, 0:1, 1:7, 0:1, 1:1, 0:1, 1:3, 0:2, 1:23, 0:2, 1:3, 0:1, 1:1, 0:2, 1:10, 0:1, 1:8, 0:1, 1:11, 0:1, 1:7, 0:1, 1:4, 0:1, 1:11, 0:1, 1:1, 0:1, 1:1, 0:1, 1:6, 0:1, 1:1, 0:1, 1:4, 0:2, 1:9, 0:1, 1:11, 0:1, 1:26, 0:1, 1:19, 0:1, 1:3, 0:1, 1:6, 0:1, 1:4, 0:1, 1:28, 0:1, 1:7, 0:1, 1:1, 0:1, 1:10, 0:2, 1:7, 0:1, 1:1, 0:1, 1:77, 0:1, 1:12, 0:1, 1:4, 0:1, 1:25, 0:1, 1:94, 0:1, 1:76, 0:1, 1:2, 0:1, 1:4, 0:3, 1:4, 0:1, 1:18, 0:1, 1:9, 0:1, 1:1, 0:1, 1:3, 0:2, 1:2, 0:2, 1:7, 0:1, 1:2, 0:1, 1:3, 0:2, 1:40, 0:1, 1:39, 0:2, 1:2, 0:1, 1:14, 0:1, 1:5, 0:1, 1:1, 0:1, 1:3, 0:1, 1:2, 0:1, 1:1, 0:1, 1:1, 0:1, 1:2, 0:2, 1:3, 0:1, 1:1, 0:1, 1:1, 0:1, 1:2, 0:1, 1:12, 0:1, 1:6, 0:1, 1:5, 0:1, 1:1, 0:1, 1:2, 0:1, 1:16, 0:1, 1:6, 0:1, 1:3, 0:1, 1:18, 0:1, 1:5, 0:1, 1:54, 0:1, 1:65, 0:2, 1:1, 0:1, 1:8, 0:1, 1:23, 0:1, 1:81, 0:1, 1:11, 0:1, 1:1, 0:1, 1:9, 0:1, 1:9, 0:2, 1:18, 0:1, 1:19, 0:1, 1:2, 0:1, 1:55, 0:1, 1:82, 0:1, 1:9, 0:1, 1:39, 0:1, 1:4, 0:1, 1:7, 0:1, 1:8, 0:1, 1:87, 0:1, 1:20, 0:1, 1:85, 0:1, 1:76, 0:1, 1:12, 0:2, 1:1, 0:1, 1:4, 0:1, 1:11, 0:1, 1:2, 0:2, 1:2, 0:2, 1:1, 0:1, 1:8, 0:1, 1:47, 0:1, 1:31, 0:1, 1:69, 0:1, 1:11, 0:1, 1:139, 0:2, 1:17, 0:2, 1:6, 0:1, 1:14, 0:1, 1:10, 0:1, 1:6, 0:1, 1:10, 0:1, 1:24, 0:1, 1:21, 0:2, 1:26, 0:1, 1:4, 0:1, 1:15, 0:1, 1:2, 0:1, 1:3, 0:1, 1:37, 0:1, 1:48, 0:1, 1:8, 0:1, 1:1, 0:1, 1:48, 0:1, 1:7, 0:1, 1:90, 0:1, 1:90, 0:2, 1:24, 0:1, 1:8, 0:1, 1:3, 0:2, 1:7, 0:1, 1:11, 0:1, 1:1, 0:1, 1:6, 0:1, 1:23, 0:1, 1:18, 0:1, 1:22, 0:1, 1:2, 0:1, 1:3, 0:1, 1:7, 0:1, 1:2, 0:1, 1:1, 0:1, 1:24, 0:1, 1:30, 0:1, 1:2, 0:1, 1:20, 0:1, 1:21, 0:1, 1:7, 0:1, 1:6, 0:1, 1:23, 0:1, 1:7, 0:1, 1:4, 0:1, 1:8, 0:1, 1:15, 0:1, 1:7, 0:1, 1:16, 0:1, 1:10, 0:1, 1:12, 0:1, 1:9, 0:1, 1:18, 0:1, 1:10, 0:1, 1:22, 0:1, 1:27, 0:1, 1:3, 0:1, 1:5, 0:1, 1:12, 0:1, 1:7, 0:1, 1:22, 0:1, 1:13, 0:1, 1:119, 0:1, 1:44, 0:1, 1:9, 0:1, 1:18, 0:1, 1:11, 0:1, 1:14, 0:1, 1:12, 0:1, 1:1, 0:1, 1:30, 0:1, 1:25, 0:1, 1:2, 0:1, 1:22, 0:1, 1:5, 0:2, 1:3, 0:1, 1:7, 0:1, 1:2, 0:1, 1:8, 0:1, 1:27, 0:1, 1:47, 0:1, 1:22, 0:1, 1:17, 0:1, 1:6, 0:1, 1:21, 0:1, 1:20, 0:1, 1:2, 0:1, 1:6, 0:1, 1:7, 0:1, 1:7, 0:1, 1:2, 0:2, 1:1, 0:1, 1:8, 0:1, 1:7, 0:2, 1:7, 0:1, 1:5, 0:2, 1:11, 0:1, 1:2, 0:1, 1:12, 0:1, 1:2, 0:2, 1:7, 0:1, 1:5, 0:1, 1:32, 0:1, 1:5, 0:1, 1:7, 0:1, 1:3, 0:1, 1:5, 0:1, 1:7, 0:1, 1:7, 0:1, 1:8, 0:1, 1:6, 0:1, 1:11, 0:1, 1:6, 0:1, 1:13, 0:1, 1:16, 0:1, 1:2, 0:1, 1:11, 0:1, 1:22, 0:1, 1:22, 0:1, 1:1, 0:1, 1:11, 0:1, 1:17, 0:1, 1:14, 0:1, 1:9, 0:1, 1:23, 0:1, 1:19, 0:1, 1:17, 0:1, 1:10, 0:1, 1:45, 0:1, 1:6, 0:1, 1:40, 0:1, 1:41, 0:1, 1:6, 0:1, 1:15, 0:1, 1:6, 0:1, 1:14, 0:1, 1:28, 0:1, 1:6, 0:1, 1:7, 0:1, 1:5, 0:1, 1:8, 0:2, 1:11, 0:1, 1:1, 0:1, 1:8, 0:1, 1:7, 0:1, 1:1, 0:2, 1:39, 0:1, 1:1, 0:1, 1:16, 0:1, 1:20, 0:1, 1:1, 0:1, 1:23, 0:1, 1:4, 0:2, 1:6, 0:1, 1:28, 0:1, 1:17, 0:1, 1:14, 0:1, 1:36, 0:1, 1:25, 0:1, 1:5, 0:1, 1:6, 0:1, 1:110, 0:1, 1:22, 0:1, 1:1, 0:1, 1:9, 0:1, 1:9, 0:1, 1:14, 0:1, 1:17, 0:1, 1:14, 0:1, 1:21, 0:1, 1:1, 0:1, 1:38, 0:1, 1:1, 0:1, 1:2, 0:1, 1:13, 0:1, 1:15, 0:1, 1:3, 0:1, 1:3, 0:2, 1:7, 0:2, 1:8, 0:2, 1:1, 0:1, 1:49, 0:1, 1:5, 0:1, 1:57, 0:1, 1:7, 0:1, 1:6, 0:1, 1:34, 0:1, 1:1, 0:1, 1:13, 0:1, 1:20, 0:1, 1:19, 0:1, 1:3, 0:1, 1:5, 0:1, 1:1, 0:1, 1:2, 0:1, 1:2, 0:2, 1:5, 0:1, 1:5, 0:1, 1:2, 0:1, 1:2, 0:1, 1:3, 0:1, 1:13, 0:5, 1:1, 0:1, 1:10, 0:1, 1:1, 0:1, 1:1, 0:2, 1:2, 0:1, 1:1, 0:1, 1:4, 0:1, 1:6, 0:2, 1:2, 0:1, 1:3, 0:2, 1:1, 0:1, 1:2, 0:1, 1:7, 0:2, 1:2, 0:1, 1:1, 0:1, 1:9, 0:3, 1:4, 0:1, 1:2, 0:1, 1:5, 0:1, 1:6, 0:1, 1:2, 0:1, 1:10, 0:1, 1:17, 0:1, 1:7, 0:2, 1:7, 0:1, 1:3, 0:1, 1:1, 0:1, 1:2, 0:1, 1:6, 0:1, 1:35, 0:1, 1:27, 0:1, 1:10, 0:1, 1:9, 0:1, 1:442, 0:1, 1:38, 0:1, 1:389, 0:1, 1:1188, 0:1, 1:5, 0:1, 1:82, 0:1, 1:27, 0:1, 1:217, 0:1, 1:148, 0:1, 1:180, 0:1, 1:4, 0:1, 1:3, 0:1, 1:315, 0:1, 1:147, 0:1, 1:259, 0:1, 1:594, 0:1, 1:103, 0:1, 1:139, 0:1, 1:240, 0:1, 1:17, 0:1, 1:64, 0:1, 1:148, 0:1, 1:77, 0:1, 1:644, 0:1, 1:25, 0:1, 1:617, 0:1, 1:93, 0:1, 1:668, 0:1, 1:368, 0:1, 1:349, 0:1, 1:593"
     },
     "spatial": {
-      "otsu": 125.09880705394191,
+      "otsu": 129.13612865795278,
       "bits_len": 480,
       "pad": 0,
-      "hex": "000000000000000000000000000007ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc00000000000000000000000000000",
-      "rle": "0:117, 1:245, 0:118"
+      "hex": "000000000000000000000000000003fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc000000000000000000000000000000",
+      "rle": "0:118, 1:240, 0:122"
     }
   },
   "beaconB": {
@@ -328,10 +330,10 @@
     "preamble_source": "ui_confirmed",
     "led_status": {
       "bits": "10101010",
-      "detected_live": false,
-      "state": "miss",
-      "label": "NO DETECTADO",
-      "color": "#e74c3c"
+      "detected_live": true,
+      "state": "found",
+      "label": "DETECTADO",
+      "color": "#2ecc71"
     },
     "target_led_status": {
       "bits": "011010011010011010",
@@ -344,9 +346,9 @@
     "rollmed_sec": 360.0,
     "dt_est_s": 0.6,
     "samples_per_bit": 5,
-    "bits_len": 97,
-    "invalid_bits_count": 37,
-    "invalid_bits_frac": 0.38144329896907214,
+    "bits_len": 4805,
+    "invalid_bits_count": 2665,
+    "invalid_bits_frac": 0.554630593132154,
     "sample_invalid_count": 0,
     "sample_invalid_frac": 0.0,
     "tail_trim": {
@@ -355,42 +357,42 @@
       "idle_min_sec": 120.0,
       "trimmed_samples": 0,
       "trimmed_seconds": 0.0,
-      "tail_dt_est_s": 0.6198787689208984,
+      "tail_dt_est_s": 0.623543381690979,
       "reason": "tail_short"
     },
     "env_gate": {
       "enabled": true,
       "warmup_sec": 60.0,
       "z_thr": 8.0,
-      "n_samples": 482,
-      "n_env_samples": 482,
-      "matched": 385,
+      "n_samples": 24023,
+      "n_env_samples": 24023,
+      "matched": 23927,
       "invalid_samples": 0,
       "invalid_frac": 0.0,
       "metrics": {
         "lux": {
           "ok": true,
-          "med": 13.95,
-          "sigma": 7.190610000000001,
-          "thr": 57.52488000000001
+          "med": 8.3,
+          "sigma": 5.782139999999997,
+          "thr": 46.25711999999998
         },
         "acc": {
           "ok": true,
-          "med": 10.090927608500618,
-          "sigma": 0.020804012703529964,
-          "thr": 0.1664321016282397
+          "med": 10.090098958880432,
+          "sigma": 0.021196461204778146,
+          "thr": 0.16957168963822516
         },
         "rot": {
           "ok": true,
-          "med": 0.02979932885150268,
-          "sigma": 0.0008540524106583513,
+          "med": 0.02934280150224242,
+          "sigma": 0.0009001706146020596,
           "thr": 5.0
         },
         "ldr": {
           "ok": true,
-          "med": 28.5,
-          "sigma": 14.825999999999999,
-          "thr": 118.60799999999999
+          "med": 17.0,
+          "sigma": 11.8608,
+          "thr": 94.8864
         }
       },
       "reason": "ok"
@@ -406,9 +408,9 @@
     "baliza1_len": 10,
     "baliza2_len": 18,
     "roi_frac": 0.34,
-    "dt_est_s": 0.623758054054054,
+    "dt_est_s": 0.6244277887769545,
     "rows_per_bit": 5,
-    "bits_len": 97,
+    "bits_len": 4805,
     "best": null
   },
   "h3v0": {
@@ -456,12 +458,12 @@
   "session_time_integrity": {
     "status": "warn",
     "label": "REVISAR",
-    "expected_s": 289.2,
-    "actual_s": 300.0,
-    "gap_s": 10.800000000000011,
-    "gap_pct": 3.7344398340249003,
+    "expected_s": 14413.8,
+    "actual_s": 15000.0,
+    "gap_s": 586.2000000000007,
+    "gap_pct": 4.066935853140746,
     "reasons": [
-      "Desfase temporal moderado: 10.8s (3.73%)."
+      "Desfase temporal moderado: 586.2s (4.07%)."
     ],
     "profile": "QC-time-v1"
   },
