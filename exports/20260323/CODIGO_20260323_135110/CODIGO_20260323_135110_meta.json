@@ -1,0 +1,482 @@
+{
+  "base": "CODIGO_20260323_135110",
+  "created_at": "2026-03-23T14:11:41",
+  "started_at": "2026-03-23T13:54:59",
+  "ended_at": "2026-03-23T14:11:40",
+  "duration_s": 1000.001002,
+  "n_rows": 1543,
+  "n_cols": 480,
+  "poll_ms": 600,
+  "source": {
+    "host": "http://127.0.0.1:5000",
+    "path": "/api/latest",
+    "csv_path": null,
+    "autofind": false
+  },
+  "ambient_sensors_behavior": {
+    "captured": true,
+    "n_samples": 1447,
+    "n_samples_raw": 1543,
+    "n_samples_after_warmup": 1447,
+    "warmup_sec_applied": 60.0,
+    "warmup_idx": 96,
+    "dt_est_s": 0.6237366199493408,
+    "t_start_s": 62.668837547302246,
+    "t_end_s": 999.2231376171112,
+    "span_s": 936.554300069809,
+    "s4_counts": {
+      "0": 950,
+      "1": 497
+    },
+    "s4_counts_env_valid": {
+      "0": 950,
+      "1": 497
+    },
+    "summary": {
+      "lux": {
+        "n_total": 1447,
+        "n_valid": 1447,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 134.8,
+        "last": 128.9,
+        "delta": -5.900000000000006,
+        "mean": 135.50946786454736,
+        "std": 8.042694695191788,
+        "median": 137.2,
+        "mad": 4.400000000000006,
+        "min": 104.0,
+        "max": 145.1,
+        "range": 41.099999999999994,
+        "trend": "falling",
+        "variability": "medium",
+        "slope_per_min": -0.37798128733551684,
+        "t_start_valid_s": 62.668837547302246,
+        "t_end_valid_s": 999.2231376171112,
+        "span_valid_s": 936.554300069809
+      },
+      "temp_c": {
+        "n_total": 1447,
+        "n_valid": 1447,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 24.16,
+        "last": 24.51,
+        "delta": 0.3500000000000014,
+        "mean": 24.31256392536282,
+        "std": 0.11975132092672637,
+        "median": 24.31,
+        "mad": 0.10999999999999943,
+        "min": 24.02,
+        "max": 24.59,
+        "range": 0.5700000000000003,
+        "trend": "rising",
+        "variability": "low",
+        "slope_per_min": 0.022422618740242595,
+        "t_start_valid_s": 62.668837547302246,
+        "t_end_valid_s": 999.2231376171112,
+        "span_valid_s": 936.554300069809
+      },
+      "acc_mag_m_s2": {
+        "n_total": 1447,
+        "n_valid": 1447,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 10.083921558600107,
+        "last": 10.087495477074576,
+        "delta": 0.0035739184744691954,
+        "mean": 10.106028031422396,
+        "std": 0.045999018779220656,
+        "median": 10.10008084126063,
+        "mad": 0.018313695423538334,
+        "min": 10.024671416061476,
+        "max": 10.360644526283101,
+        "range": 0.3359731102216248,
+        "trend": "stable",
+        "variability": "low",
+        "slope_per_min": 0.00022896174674780537,
+        "t_start_valid_s": 62.668837547302246,
+        "t_end_valid_s": 999.2231376171112,
+        "span_valid_s": 936.554300069809
+      },
+      "rot_mag_deg_s": {
+        "n_total": 1447,
+        "n_valid": 1447,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 0.028809720581775868,
+        "last": 0.03112876483254676,
+        "delta": 0.002319044250770893,
+        "mean": 0.025187246985299575,
+        "std": 0.024880960669092754,
+        "median": 0.02958039891549808,
+        "mad": 0.0010953243848578521,
+        "min": 0.0,
+        "max": 0.27335873865673294,
+        "range": 0.27335873865673294,
+        "trend": "stable",
+        "variability": "high",
+        "slope_per_min": 0.0001485687002193916,
+        "t_start_valid_s": 62.668837547302246,
+        "t_end_valid_s": 999.2231376171112,
+        "span_valid_s": 936.554300069809
+      },
+      "ldr_raw": {
+        "n_total": 1447,
+        "n_valid": 890,
+        "n_invalid": 557,
+        "valid_pct": 61.506565307532824,
+        "status": "ok",
+        "first": 253.0,
+        "last": 249.0,
+        "delta": -4.0,
+        "mean": 167.08426966292134,
+        "std": 89.51714416724714,
+        "median": 209.5,
+        "mad": 48.5,
+        "min": 1.0,
+        "max": 266.0,
+        "range": 265.0,
+        "trend": "stable",
+        "variability": "high",
+        "slope_per_min": -0.25663915462720077,
+        "t_start_valid_s": 62.668837547302246,
+        "t_end_valid_s": 997.8340127468109,
+        "span_valid_s": 935.1651751995087
+      }
+    },
+    "by_s4_mean": {
+      "s4_0": {
+        "n": 950,
+        "lux": 133.14526315789473,
+        "temp_c": 24.358694736842104,
+        "acc_mag_m_s2": 10.09800923715261,
+        "rot_mag_deg_s": 0.03001568666291723,
+        "ldr_raw": 100.56105263157895
+      },
+      "s4_1": {
+        "n": 497,
+        "lux": 140.0285714285714,
+        "temp_c": 24.224386317907445,
+        "acc_mag_m_s2": 10.121355706585971,
+        "rot_mag_deg_s": 0.015957835126674272,
+        "ldr_raw": 106.98591549295774
+      }
+    },
+    "last_snapshot": {
+      "lux": 128.9,
+      "temp_c": 24.51,
+      "acc_mag_m_s2": 10.087495477074576,
+      "rot_mag_deg_s": 0.03112876483254676,
+      "ldr_raw": 0.0,
+      "s4": 0
+    },
+    "stability_semaphore_qc_env": {
+      "status": "unstable",
+      "label": "INESTABLE",
+      "score": 5,
+      "defendible_env": false,
+      "reasons": [
+        "Luz: rango alto (41.100 > 20.0)",
+        "Luz: variabilidad alta (std=8.043 > 5.0)",
+        "Temperatura: rango a vigilar (0.570 > 0.4)",
+        "|a|: rango alto (0.336 > 0.18)",
+        "|a|: variabilidad moderada (std=0.046 > 0.02)"
+      ],
+      "threshold_profile": "QC-env-v2",
+      "n_samples": 1447,
+      "n_samples_raw": 1543,
+      "n_samples_after_warmup": 1447,
+      "span_s": 936.554300069809
+    },
+    "ldr_bar_snapshot": {
+      "status": "stable",
+      "label": "ESTABLE (OK para experimento)",
+      "color": "#6dd17a",
+      "value": 0.0,
+      "delta": 0.0,
+      "metrics": {
+        "n": 90,
+        "std": 107.08825021137162,
+        "span": 249.0,
+        "drift": -0.7057224479263952,
+        "p95_dv": 239.0
+      },
+      "baseline_ready": true
+    },
+    "stability_semaphore_ldr_bar": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=107.1, span=249, drift=-0.71 ADC/s, p95Δ=239",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 107.08825021137162,
+        "span": 249.0,
+        "drift": -0.7057224479263952,
+        "p95_dv": 239.0
+      },
+      "ldr_value": 0.0,
+      "ldr_delta": 0.0
+    },
+    "stability_semaphore": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=107.1, span=249, drift=-0.71 ADC/s, p95Δ=239",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 107.08825021137162,
+        "span": 249.0,
+        "drift": -0.7057224479263952,
+        "p95_dv": 239.0
+      },
+      "ldr_value": 0.0,
+      "ldr_delta": 0.0,
+      "fallback_qc_env": {
+        "status": "unstable",
+        "label": "INESTABLE",
+        "score": 5,
+        "defendible_env": false,
+        "reasons": [
+          "Luz: rango alto (41.100 > 20.0)",
+          "Luz: variabilidad alta (std=8.043 > 5.0)",
+          "Temperatura: rango a vigilar (0.570 > 0.4)",
+          "|a|: rango alto (0.336 > 0.18)",
+          "|a|: variabilidad moderada (std=0.046 > 0.02)"
+        ],
+        "threshold_profile": "QC-env-v2",
+        "n_samples": 1447,
+        "n_samples_raw": 1543,
+        "n_samples_after_warmup": 1447,
+        "span_s": 936.554300069809
+      }
+    }
+  },
+  "code_detector": {
+    "coding_active": false,
+    "finished": true,
+    "preamble": {
+      "bits": "10101010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza1": {
+      "bits": "1101011110",
+      "detected_live": true,
+      "state": "found",
+      "label": "DETECTADO",
+      "color": "#2ecc71"
+    },
+    "baliza2": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    }
+  },
+  "barcodes": {
+    "temporal": {
+      "otsu": 131.84176432291667,
+      "bits_len": 1543,
+      "pad": 1,
+      "hex": "008001c064007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7800000000000000000000007fc000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rle": "0:8, 1:1, 0:14, 1:3, 0:7, 1:2, 0:2, 1:1, 0:11, 1:439, 0:1, 1:4, 0:92, 1:9, 0:949"
+    },
+    "spatial": {
+      "otsu": 127.5671176279974,
+      "bits_len": 480,
+      "pad": 0,
+      "hex": "000000000000000000000000000003ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc00000000000000000000000000000",
+      "rle": "0:118, 1:244, 0:118"
+    }
+  },
+  "beaconB": {
+    "method": "digital_s2_minus_s1",
+    "preamble_bits": "10101010",
+    "preamble_len": 8,
+    "target_bits": "011010011010011010",
+    "baliza1_bits": "1101011110",
+    "baliza2_bits": "011010011010011010",
+    "target_len": 18,
+    "baliza1_len": 10,
+    "baliza2_len": 18,
+    "preamble_source": "ui_confirmed",
+    "led_status": {
+      "bits": "10101010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "target_led_status": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "bit_dur_s": 3.0,
+    "rollmed_sec": 360.0,
+    "dt_est_s": 0.6,
+    "samples_per_bit": 5,
+    "bits_len": 309,
+    "invalid_bits_count": 294,
+    "invalid_bits_frac": 0.9514563106796117,
+    "sample_invalid_count": 35,
+    "sample_invalid_frac": 0.02268308489954634,
+    "tail_trim": {
+      "enabled": true,
+      "applied": false,
+      "idle_min_sec": 120.0,
+      "trimmed_samples": 0,
+      "trimmed_seconds": 0.0,
+      "tail_dt_est_s": 0.6233347654342651,
+      "reason": "tail_short"
+    },
+    "env_gate": {
+      "enabled": true,
+      "warmup_sec": 60.0,
+      "z_thr": 8.0,
+      "n_samples": 1543,
+      "n_env_samples": 1543,
+      "matched": 1451,
+      "invalid_samples": 35,
+      "invalid_frac": 0.02268308489954634,
+      "metrics": {
+        "lux": {
+          "ok": true,
+          "med": 137.2,
+          "sigma": 6.523440000000008,
+          "thr": 52.18752000000006
+        },
+        "acc": {
+          "ok": true,
+          "med": 10.100021435620818,
+          "sigma": 0.027200397774572265,
+          "thr": 0.21760318219657812
+        },
+        "rot": {
+          "ok": true,
+          "med": 0.02959729717389748,
+          "sigma": 0.0015988745750873004,
+          "thr": 5.0
+        },
+        "ldr": {
+          "ok": true,
+          "med": 210.0,
+          "sigma": 71.1648,
+          "thr": 569.3184
+        }
+      },
+      "reason": "ok"
+    },
+    "best": null
+  },
+  "beaconB_visual": {
+    "method": "visual_roi_ratio_waterfall",
+    "target_bits": "011010011010011010",
+    "baliza1_bits": "1101011110",
+    "baliza2_bits": "011010011010011010",
+    "target_len": 18,
+    "baliza1_len": 10,
+    "baliza2_len": 18,
+    "roi_frac": 0.34,
+    "dt_est_s": 0.6485090804150454,
+    "rows_per_bit": 5,
+    "bits_len": 309,
+    "best": null
+  },
+  "h3v0": {
+    "enabled": true,
+    "mode": "negentropy_compete",
+    "clock_mode": "fixed",
+    "tbit_s": 3.0,
+    "neg_window_sec": 1.0,
+    "mapping": {
+      "s1": "0",
+      "s2": "1"
+    },
+    "decision_rule": "lower_entropy_wins",
+    "thr_d2": 12.0,
+    "thr_d3_max": 12.0,
+    "use_s3_gate": false,
+    "ctrl_thr_d3": 12.0,
+    "ctrl_thr_d2_max": 12.0,
+    "require_s4_on": false,
+    "summary_file": null,
+    "bitstream_file": null
+  },
+  "files": {
+    "txt": "CODIGO_20260323_135110.txt",
+    "dataset_csv": "CODIGO_20260323_135110_dataset.csv",
+    "temporal_profile_csv": "CODIGO_20260323_135110_temporal_profile.csv",
+    "spatial_profile_csv": "CODIGO_20260323_135110_spatial_profile.csv",
+    "beaconB_signal_csv": "CODIGO_20260323_135110_beaconB_signal.csv",
+    "beaconB_bits_csv": "CODIGO_20260323_135110_beaconB_bits.csv",
+    "beaconB_visual_signal_csv": "CODIGO_20260323_135110_beaconB_visual_signal.csv",
+    "beaconB_visual_bits_csv": "CODIGO_20260323_135110_beaconB_visual_bits.csv",
+    "h3v0_bitstream_csv": null,
+    "h3v0_summary_json": null,
+    "meta_json": "CODIGO_20260323_135110_meta.json",
+    "waterfall_png": "CODIGO_20260323_135110_waterfall.png",
+    "snapshot_png": "CODIGO_20260323_135110_snapshot.png",
+    "quantum_contact_data_csv": "CODIGO_20260323_135110_quantum_contact_data.csv",
+    "quantum_contact_data_plain_csv": "quantum_contact_data.csv",
+    "analysis_pdf": "CODIGO_20260323_135110_analisis_sesion_beaconB.pdf",
+    "analysis_json": "CODIGO_20260323_135110_analisis_sesion_beaconB.json",
+    "analysis_exploratory_json": null,
+    "session_pack_zip": null
+  },
+  "script": "sistema_v18_negentropy_v5_mejorado.py",
+  "session_time_integrity": {
+    "status": "fail",
+    "label": "COMPROMETIDA",
+    "expected_s": 925.8,
+    "actual_s": 1001.0,
+    "gap_s": 75.20000000000005,
+    "gap_pct": 8.122704687837551,
+    "reasons": [
+      "Desfase temporal alto: 75.2s (8.12%)."
+    ],
+    "profile": "QC-time-v1"
+  },
+  "warnings": [
+    "exploratory_export_failed: name '_qc_build_event_info_from_meta' is not defined"
+  ],
+  "exports_summary": {
+    "session_dir": "C:\\Users\\jsbae\\Desktop\\Quantum_contact\\codigos\\20260323\\CODIGO_20260323_135110",
+    "pack_zip_created": false,
+    "pack_zip": null,
+    "analysis_pdf_created": true,
+    "analysis_json_created": true
+  }
+}
