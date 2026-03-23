@@ -1,0 +1,457 @@
+{
+  "base": "CODIGO_20260322_223637",
+  "created_at": "2026-03-23T04:13:26",
+  "started_at": "2026-03-22T22:39:59",
+  "ended_at": "2026-03-23T04:13:20",
+  "duration_s": 20000.000923,
+  "n_rows": 32011,
+  "n_cols": 480,
+  "poll_ms": 600,
+  "source": {
+    "host": "http://127.0.0.1:5000",
+    "path": "/api/latest",
+    "csv_path": null,
+    "autofind": false
+  },
+  "ambient_sensors_behavior": {
+    "captured": true,
+    "n_samples": 31914,
+    "n_samples_raw": 32011,
+    "n_samples_after_warmup": 31914,
+    "warmup_sec_applied": 60.0,
+    "warmup_idx": 97,
+    "dt_est_s": 0.6185667514801025,
+    "t_start_s": 60.45585036277771,
+    "t_end_s": 19999.021535396576,
+    "span_s": 19938.5656850338,
+    "s4_counts": {
+      "0": 31914,
+      "1": 0
+    },
+    "s4_counts_env_valid": {
+      "0": 31914,
+      "1": 0
+    },
+    "summary": {
+      "lux": {
+        "n_total": 31914,
+        "n_valid": 0,
+        "n_invalid": 31914,
+        "valid_pct": 0.0,
+        "status": "not_measured",
+        "reason": "Sensor lux no medido/no disponible (valores 0 tras warm-up)."
+      },
+      "temp_c": {
+        "n_total": 31914,
+        "n_valid": 31914,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 25.43,
+        "last": 25.43,
+        "delta": 0.0,
+        "mean": 25.43,
+        "std": 0.0,
+        "median": 25.43,
+        "mad": 0.0,
+        "min": 25.43,
+        "max": 25.43,
+        "range": 0.0,
+        "trend": "stable",
+        "variability": "low",
+        "slope_per_min": 0.0,
+        "t_start_valid_s": 60.45585036277771,
+        "t_end_valid_s": 19999.021535396576,
+        "span_valid_s": 19938.5656850338
+      },
+      "acc_mag_m_s2": {
+        "n_total": 31914,
+        "n_valid": 31914,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 13.587938585377842,
+        "last": 13.587938585377842,
+        "delta": 0.0,
+        "mean": 13.587938585377842,
+        "std": 0.0,
+        "median": 13.587938585377842,
+        "mad": 0.0,
+        "min": 13.587938585377842,
+        "max": 13.587938585377842,
+        "range": 0.0,
+        "trend": "stable",
+        "variability": "low",
+        "slope_per_min": 0.0,
+        "t_start_valid_s": 60.45585036277771,
+        "t_end_valid_s": 19999.021535396576,
+        "span_valid_s": 19938.5656850338
+      },
+      "rot_mag_deg_s": {
+        "n_total": 31914,
+        "n_valid": 31914,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 3.039829107038749,
+        "last": 3.039829107038749,
+        "delta": 0.0,
+        "mean": 3.039829107038749,
+        "std": 0.0,
+        "median": 3.039829107038749,
+        "mad": 0.0,
+        "min": 3.039829107038749,
+        "max": 3.039829107038749,
+        "range": 0.0,
+        "trend": "stable",
+        "variability": "low",
+        "slope_per_min": 0.0,
+        "t_start_valid_s": 60.45585036277771,
+        "t_end_valid_s": 19999.021535396576,
+        "span_valid_s": 19938.5656850338
+      },
+      "ldr_raw": {
+        "n_total": 31914,
+        "n_valid": 31914,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 1.0,
+        "last": 1.0,
+        "delta": 0.0,
+        "mean": 1.0,
+        "std": 0.0,
+        "median": 1.0,
+        "mad": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "range": 0.0,
+        "trend": "stable",
+        "variability": "low",
+        "slope_per_min": 0.0,
+        "t_start_valid_s": 60.45585036277771,
+        "t_end_valid_s": 19999.021535396576,
+        "span_valid_s": 19938.5656850338
+      }
+    },
+    "by_s4_mean": {
+      "s4_0": {
+        "n": 31914,
+        "lux": 0.0,
+        "temp_c": 25.43,
+        "acc_mag_m_s2": 13.587938585377842,
+        "rot_mag_deg_s": 3.039829107038749,
+        "ldr_raw": 1.0
+      },
+      "s4_1": {
+        "n": 0,
+        "lux": null,
+        "temp_c": null,
+        "acc_mag_m_s2": null,
+        "rot_mag_deg_s": null,
+        "ldr_raw": null
+      }
+    },
+    "last_snapshot": {
+      "lux": 0.0,
+      "temp_c": 25.43,
+      "acc_mag_m_s2": 13.587938585377842,
+      "rot_mag_deg_s": 3.039829107038749,
+      "ldr_raw": 1.0,
+      "s4": 0
+    },
+    "stability_semaphore_qc_env": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "Luz: no medido/no disponible (no penaliza semaforo)."
+      ],
+      "threshold_profile": "QC-env-v2",
+      "n_samples": 31914,
+      "n_samples_raw": 32011,
+      "n_samples_after_warmup": 31914,
+      "span_s": 19938.5656850338
+    },
+    "ldr_bar_snapshot": {
+      "status": "stable",
+      "label": "ESTABLE (OK para experimento)",
+      "color": "#6dd17a",
+      "value": 1.0,
+      "delta": 0.0,
+      "metrics": {
+        "n": 90,
+        "std": 0.0,
+        "span": 0.0,
+        "drift": 0.0,
+        "p95_dv": 0.0
+      },
+      "baseline_ready": true
+    },
+    "stability_semaphore_ldr_bar": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=0.0, span=0, drift=+0.00 ADC/s, p95Δ=0",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 0.0,
+        "span": 0.0,
+        "drift": 0.0,
+        "p95_dv": 0.0
+      },
+      "ldr_value": 1.0,
+      "ldr_delta": 0.0
+    },
+    "stability_semaphore": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=0.0, span=0, drift=+0.00 ADC/s, p95Δ=0",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 0.0,
+        "span": 0.0,
+        "drift": 0.0,
+        "p95_dv": 0.0
+      },
+      "ldr_value": 1.0,
+      "ldr_delta": 0.0,
+      "fallback_qc_env": {
+        "status": "stable",
+        "label": "ESTABLE",
+        "score": 0,
+        "defendible_env": true,
+        "reasons": [
+          "Luz: no medido/no disponible (no penaliza semaforo)."
+        ],
+        "threshold_profile": "QC-env-v2",
+        "n_samples": 31914,
+        "n_samples_raw": 32011,
+        "n_samples_after_warmup": 31914,
+        "span_s": 19938.5656850338
+      }
+    }
+  },
+  "code_detector": {
+    "coding_active": false,
+    "finished": true,
+    "preamble": {
+      "bits": "10101010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza1": {
+      "bits": "1101011110",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza2": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    }
+  },
+  "barcodes": {
+    "temporal": {
+      "otsu": 127.775,
+      "bits_len": 32011,
+      "pad": 5,
+      "hex": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0",
+      "rle": "1:32011"
+    },
+    "spatial": {
+      "otsu": 125.015625,
+      "bits_len": 480,
+      "pad": 0,
+      "hex": "000000000000000000000000000007ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc00000000000000000000000000000",
+      "rle": "0:117, 1:245, 0:118"
+    }
+  },
+  "beaconB": {
+    "method": "digital_s2_minus_s1",
+    "preamble_bits": "10101010",
+    "preamble_len": 8,
+    "target_bits": "011010011010011010",
+    "baliza1_bits": "1101011110",
+    "baliza2_bits": "011010011010011010",
+    "target_len": 18,
+    "baliza1_len": 10,
+    "baliza2_len": 18,
+    "preamble_source": "ui_confirmed",
+    "led_status": {
+      "bits": "10101010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "target_led_status": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "bit_dur_s": 3.0,
+    "rollmed_sec": 360.0,
+    "dt_est_s": 0.6,
+    "samples_per_bit": 5,
+    "bits_len": 1,
+    "invalid_bits_count": 1,
+    "invalid_bits_frac": 1.0,
+    "sample_invalid_count": 0,
+    "sample_invalid_frac": 0.0,
+    "tail_trim": {
+      "enabled": true,
+      "applied": true,
+      "idle_min_sec": 120.0,
+      "trimmed_samples": 32011,
+      "trimmed_seconds": 19999.0215344429,
+      "tail_dt_est_s": 0.6235595941543579,
+      "reason": "tail_idle_s4_off_constant"
+    },
+    "env_gate": {
+      "enabled": true,
+      "warmup_sec": 60.0,
+      "z_thr": 8.0,
+      "n_samples": 1,
+      "n_env_samples": 32011,
+      "matched": 0,
+      "invalid_samples": 0,
+      "invalid_frac": 0.0,
+      "metrics": {
+        "lux": {
+          "ok": false,
+          "reason": "few_samples"
+        },
+        "acc": {
+          "ok": true,
+          "med": 13.587938585377842,
+          "sigma": 0.0,
+          "thr": 0.15
+        },
+        "rot": {
+          "ok": true,
+          "med": 3.039829107038749,
+          "sigma": 0.0,
+          "thr": 5.0
+        },
+        "ldr": {
+          "ok": true,
+          "med": 1.0,
+          "sigma": 0.0,
+          "thr": 50.0
+        }
+      },
+      "reason": "ok"
+    },
+    "best": null
+  },
+  "beaconB_visual": {
+    "method": "visual_roi_ratio_waterfall",
+    "target_bits": "011010011010011010",
+    "baliza1_bits": "1101011110",
+    "baliza2_bits": "011010011010011010",
+    "target_len": 18,
+    "baliza1_len": 10,
+    "baliza2_len": 18,
+    "roi_frac": 0.34,
+    "dt_est_s": 0.6248047773508278,
+    "rows_per_bit": 5,
+    "bits_len": 6403,
+    "best": null
+  },
+  "h3v0": {
+    "enabled": true,
+    "mode": "negentropy_compete",
+    "clock_mode": "fixed",
+    "tbit_s": 3.0,
+    "neg_window_sec": 1.0,
+    "mapping": {
+      "s1": "0",
+      "s2": "1"
+    },
+    "decision_rule": "lower_entropy_wins",
+    "thr_d2": 12.0,
+    "thr_d3_max": 12.0,
+    "use_s3_gate": false,
+    "ctrl_thr_d3": 12.0,
+    "ctrl_thr_d2_max": 12.0,
+    "require_s4_on": false,
+    "summary_file": null,
+    "bitstream_file": null
+  },
+  "files": {
+    "txt": "CODIGO_20260322_223637.txt",
+    "dataset_csv": "CODIGO_20260322_223637_dataset.csv",
+    "temporal_profile_csv": "CODIGO_20260322_223637_temporal_profile.csv",
+    "spatial_profile_csv": "CODIGO_20260322_223637_spatial_profile.csv",
+    "beaconB_signal_csv": "CODIGO_20260322_223637_beaconB_signal.csv",
+    "beaconB_bits_csv": "CODIGO_20260322_223637_beaconB_bits.csv",
+    "beaconB_visual_signal_csv": "CODIGO_20260322_223637_beaconB_visual_signal.csv",
+    "beaconB_visual_bits_csv": "CODIGO_20260322_223637_beaconB_visual_bits.csv",
+    "h3v0_bitstream_csv": null,
+    "h3v0_summary_json": null,
+    "meta_json": "CODIGO_20260322_223637_meta.json",
+    "waterfall_png": "CODIGO_20260322_223637_waterfall.png",
+    "snapshot_png": "CODIGO_20260322_223637_snapshot.png",
+    "quantum_contact_data_csv": "CODIGO_20260322_223637_quantum_contact_data.csv",
+    "quantum_contact_data_plain_csv": "quantum_contact_data.csv",
+    "analysis_pdf": "CODIGO_20260322_223637_analisis_sesion_beaconB.pdf",
+    "analysis_json": "CODIGO_20260322_223637_analisis_sesion_beaconB.json",
+    "analysis_exploratory_json": null,
+    "session_pack_zip": null
+  },
+  "script": "sistema_v18_negentropy_v2 (1).py",
+  "session_time_integrity": {
+    "status": "warn",
+    "label": "REVISAR",
+    "expected_s": 19206.6,
+    "actual_s": 20001.0,
+    "gap_s": 794.4000000000015,
+    "gap_pct": 4.136078223110814,
+    "reasons": [
+      "Desfase temporal moderado: 794.4s (4.14%)."
+    ],
+    "profile": "QC-time-v1"
+  },
+  "warnings": [
+    "exploratory_export_failed: name '_qc_build_event_info_from_meta' is not defined"
+  ],
+  "exports_summary": {
+    "session_dir": "C:\\Users\\jsbae\\Desktop\\Quantum_contact\\codigos\\20260322\\CODIGO_20260322_223637",
+    "pack_zip_created": false,
+    "pack_zip": null,
+    "analysis_pdf_created": true,
+    "analysis_json_created": true
+  }
+}
