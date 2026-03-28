@@ -1,0 +1,478 @@
+{
+  "base": "CODIGO_20260328_145935",
+  "created_at": "2026-03-28T15:05:20",
+  "started_at": "2026-03-28T15:02:00",
+  "ended_at": "2026-03-28T15:05:20",
+  "duration_s": 200.004071,
+  "n_rows": 310,
+  "n_cols": 480,
+  "poll_ms": 600,
+  "source": {
+    "host": "http://127.0.0.1:5000",
+    "path": "/api/latest",
+    "csv_path": null,
+    "autofind": false
+  },
+  "ambient_sensors_behavior": {
+    "captured": true,
+    "n_samples": 215,
+    "n_samples_raw": 310,
+    "n_samples_after_warmup": 215,
+    "warmup_sec_applied": 60.0,
+    "warmup_idx": 95,
+    "dt_est_s": 0.6319351196289062,
+    "t_start_s": 62.7747688293457,
+    "t_end_s": 199.2959430217743,
+    "span_s": 136.5211741924286,
+    "s4_counts": {
+      "0": 215,
+      "1": 0
+    },
+    "s4_counts_env_valid": {
+      "0": 215,
+      "1": 0
+    },
+    "summary": {
+      "lux": {
+        "n_total": 215,
+        "n_valid": 85,
+        "n_invalid": 130,
+        "valid_pct": 39.53488372093023,
+        "status": "ok",
+        "first": 1.5,
+        "last": 1.0,
+        "delta": -0.5,
+        "mean": 11.472941176470588,
+        "std": 6.235123022334159,
+        "median": 13.2,
+        "mad": 3.900000000000002,
+        "min": 1.0,
+        "max": 24.9,
+        "range": 23.9,
+        "trend": "stable",
+        "variability": "high",
+        "slope_per_min": -0.22076777685171123,
+        "t_start_valid_s": 62.7747688293457,
+        "t_end_valid_s": 198.66416549682617,
+        "span_valid_s": 135.88939666748047
+      },
+      "temp_c": {
+        "n_total": 215,
+        "n_valid": 215,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 24.09,
+        "last": 24.16,
+        "delta": 0.07000000000000028,
+        "mean": 24.124232558139536,
+        "std": 0.06035906470467741,
+        "median": 24.11,
+        "mad": 0.05000000000000071,
+        "min": 23.98,
+        "max": 24.29,
+        "range": 0.3099999999999987,
+        "trend": "rising",
+        "variability": "low",
+        "slope_per_min": 0.030764458516010534,
+        "t_start_valid_s": 62.7747688293457,
+        "t_end_valid_s": 199.2959430217743,
+        "span_valid_s": 136.5211741924286
+      },
+      "acc_mag_m_s2": {
+        "n_total": 215,
+        "n_valid": 215,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 10.119136376193376,
+        "last": 10.063740706119171,
+        "delta": -0.05539567007420487,
+        "mean": 10.088414213916769,
+        "std": 0.020821046038940895,
+        "median": 10.090147174347855,
+        "mad": 0.012929634228827425,
+        "min": 10.02308869560676,
+        "max": 10.157013143636272,
+        "range": 0.13392444802951253,
+        "trend": "falling",
+        "variability": "low",
+        "slope_per_min": -0.024345968485206787,
+        "t_start_valid_s": 62.7747688293457,
+        "t_end_valid_s": 199.2959430217743,
+        "span_valid_s": 136.5211741924286
+      },
+      "rot_mag_deg_s": {
+        "n_total": 215,
+        "n_valid": 215,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 0.028809720581775868,
+        "last": 0.03038091506192662,
+        "delta": 0.001571194480150754,
+        "mean": 0.028413558759831002,
+        "std": 0.00086462378872606,
+        "median": 0.02846049894151541,
+        "mad": 0.0006083847659818543,
+        "min": 0.026248809496813373,
+        "max": 0.03127299154222378,
+        "range": 0.005024182045410407,
+        "trend": "rising",
+        "variability": "medium",
+        "slope_per_min": 0.0006905278200740343,
+        "t_start_valid_s": 62.7747688293457,
+        "t_end_valid_s": 199.2959430217743,
+        "span_valid_s": 136.5211741924286
+      },
+      "ldr_raw": {
+        "n_total": 215,
+        "n_valid": 85,
+        "n_invalid": 130,
+        "valid_pct": 39.53488372093023,
+        "status": "ok",
+        "first": 3.0,
+        "last": 2.0,
+        "delta": -1.0,
+        "mean": 23.49411764705882,
+        "std": 12.776115671543565,
+        "median": 27.0,
+        "mad": 8.0,
+        "min": 2.0,
+        "max": 51.0,
+        "range": 49.0,
+        "trend": "stable",
+        "variability": "high",
+        "slope_per_min": -0.44153555370342246,
+        "t_start_valid_s": 62.7747688293457,
+        "t_end_valid_s": 198.66416549682617,
+        "span_valid_s": 135.88939666748047
+      }
+    },
+    "by_s4_mean": {
+      "s4_0": {
+        "n": 215,
+        "lux": 4.535813953488372,
+        "temp_c": 24.124232558139536,
+        "acc_mag_m_s2": 10.088414213916769,
+        "rot_mag_deg_s": 0.028413558759831002,
+        "ldr_raw": 9.288372093023256
+      },
+      "s4_1": {
+        "n": 0,
+        "lux": null,
+        "temp_c": null,
+        "acc_mag_m_s2": null,
+        "rot_mag_deg_s": null,
+        "ldr_raw": null
+      }
+    },
+    "last_snapshot": {
+      "lux": 0.0,
+      "temp_c": 24.16,
+      "acc_mag_m_s2": 10.063740706119171,
+      "rot_mag_deg_s": 0.03038091506192662,
+      "ldr_raw": 0.0,
+      "s4": 0
+    },
+    "stability_semaphore_qc_env": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 1,
+      "defendible_env": true,
+      "reasons": [
+        "Luz: valid_pct bajo (39.5%).",
+        "|a|: rango a vigilar (0.134 > 0.05)"
+      ],
+      "threshold_profile": "QC-env-v2",
+      "n_samples": 215,
+      "n_samples_raw": 310,
+      "n_samples_after_warmup": 215,
+      "span_s": 136.5211741924286
+    },
+    "ldr_bar_snapshot": {
+      "status": "stable",
+      "label": "ESTABLE (OK para experimento)",
+      "color": "#6dd17a",
+      "value": 0.0,
+      "delta": -2.0,
+      "metrics": {
+        "n": 90,
+        "std": 11.846763375248777,
+        "span": 40.0,
+        "drift": -0.13797744423586653,
+        "p95_dv": 35.0
+      },
+      "baseline_ready": true
+    },
+    "stability_semaphore_ldr_bar": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=11.8, span=40, drift=-0.14 ADC/s, p95Δ=35",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 11.846763375248777,
+        "span": 40.0,
+        "drift": -0.13797744423586653,
+        "p95_dv": 35.0
+      },
+      "ldr_value": 0.0,
+      "ldr_delta": -2.0
+    },
+    "stability_semaphore": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=11.8, span=40, drift=-0.14 ADC/s, p95Δ=35",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 11.846763375248777,
+        "span": 40.0,
+        "drift": -0.13797744423586653,
+        "p95_dv": 35.0
+      },
+      "ldr_value": 0.0,
+      "ldr_delta": -2.0,
+      "fallback_qc_env": {
+        "status": "stable",
+        "label": "ESTABLE",
+        "score": 1,
+        "defendible_env": true,
+        "reasons": [
+          "Luz: valid_pct bajo (39.5%).",
+          "|a|: rango a vigilar (0.134 > 0.05)"
+        ],
+        "threshold_profile": "QC-env-v2",
+        "n_samples": 215,
+        "n_samples_raw": 310,
+        "n_samples_after_warmup": 215,
+        "span_s": 136.5211741924286
+      }
+    }
+  },
+  "code_detector": {
+    "coding_active": false,
+    "finished": true,
+    "preamble": {
+      "bits": "10101010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza1": {
+      "bits": "1101011110",
+      "detected_live": true,
+      "state": "found",
+      "label": "DETECTADO",
+      "color": "#2ecc71"
+    },
+    "baliza2": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    }
+  },
+  "barcodes": {
+    "temporal": {
+      "otsu": 126.96248372395834,
+      "bits_len": 310,
+      "pad": 2,
+      "hex": "ef9b65ab1f5bfcfddd7fdf7db72d6cb89ede645fffe7bbdfff7ebb3ffff75fbffbffbe23ffeff4",
+      "rle": "1:3, 0:1, 1:5, 0:2, 1:2, 0:1, 1:2, 0:1, 1:2, 0:2, 1:1, 0:1, 1:2, 0:1, 1:1, 0:1, 1:1, 0:1, 1:2, 0:3, 1:5, 0:1, 1:1, 0:1, 1:2, 0:1, 1:8, 0:2, 1:6, 0:1, 1:3, 0:1, 1:3, 0:1, 1:1, 0:1, 1:9, 0:1, 1:5, 0:1, 1:5, 0:1, 1:2, 0:1, 1:2, 0:1, 1:3, 0:2, 1:1, 0:1, 1:2, 0:1, 1:1, 0:1, 1:2, 0:1, 1:2, 0:2, 1:1, 0:1, 1:3, 0:3, 1:1, 0:2, 1:4, 0:1, 1:2, 0:1, 1:4, 0:2, 1:2, 0:2, 1:1, 0:3, 1:1, 0:1, 1:16, 0:2, 1:4, 0:1, 1:3, 0:1, 1:4, 0:1, 1:13, 0:1, 1:6, 0:1, 1:1, 0:1, 1:3, 0:1, 1:2, 0:2, 1:18, 0:1, 1:3, 0:1, 1:1, 0:1, 1:6, 0:1, 1:11, 0:1, 1:11, 0:1, 1:5, 0:3, 1:1, 0:3, 1:13, 0:1, 1:8, 0:1, 1:1"
+    },
+    "spatial": {
+      "otsu": 124.84480846774196,
+      "bits_len": 480,
+      "pad": 0,
+      "hex": "000000000000000000000000000003ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc00000000000000000000000000000",
+      "rle": "0:118, 1:244, 0:118"
+    }
+  },
+  "beaconB": {
+    "method": "digital_s2_minus_s1",
+    "preamble_bits": "10101010",
+    "preamble_len": 8,
+    "target_bits": "011010011010011010",
+    "baliza1_bits": "1101011110",
+    "baliza2_bits": "011010011010011010",
+    "target_len": 18,
+    "baliza1_len": 10,
+    "baliza2_len": 18,
+    "preamble_source": "ui_confirmed",
+    "led_status": {
+      "bits": "10101010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "target_led_status": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "bit_dur_s": 3.0,
+    "rollmed_sec": 360.0,
+    "dt_est_s": 0.6,
+    "samples_per_bit": 5,
+    "bits_len": 62,
+    "invalid_bits_count": 23,
+    "invalid_bits_frac": 0.3709677419354839,
+    "sample_invalid_count": 0,
+    "sample_invalid_frac": 0.0,
+    "tail_trim": {
+      "enabled": true,
+      "applied": false,
+      "idle_min_sec": 120.0,
+      "trimmed_samples": 0,
+      "trimmed_seconds": 0.0,
+      "tail_dt_est_s": 0.6322922706604004,
+      "reason": "tail_short"
+    },
+    "env_gate": {
+      "enabled": true,
+      "warmup_sec": 60.0,
+      "z_thr": 8.0,
+      "n_samples": 310,
+      "n_env_samples": 310,
+      "matched": 219,
+      "invalid_samples": 0,
+      "invalid_frac": 0.0,
+      "metrics": {
+        "lux": {
+          "ok": true,
+          "med": 12.95,
+          "sigma": 6.152790000000003,
+          "thr": 49.222320000000025
+        },
+        "acc": {
+          "ok": true,
+          "med": 10.089827451448315,
+          "sigma": 0.01953893900897958,
+          "thr": 0.15631151207183663
+        },
+        "rot": {
+          "ok": true,
+          "med": 0.028460498941515415,
+          "sigma": 0.0009019912540446921,
+          "thr": 5.0
+        },
+        "ldr": {
+          "ok": true,
+          "med": 26.5,
+          "sigma": 12.6021,
+          "thr": 100.8168
+        }
+      },
+      "reason": "ok"
+    },
+    "best": null
+  },
+  "beaconB_visual": {
+    "method": "visual_roi_ratio_waterfall",
+    "target_bits": "011010011010011010",
+    "baliza1_bits": "1101011110",
+    "baliza2_bits": "011010011010011010",
+    "target_len": 18,
+    "baliza1_len": 10,
+    "baliza2_len": 18,
+    "roi_frac": 0.34,
+    "dt_est_s": 0.6472623656957929,
+    "rows_per_bit": 5,
+    "bits_len": 62,
+    "best": null
+  },
+  "h3v0": {
+    "enabled": true,
+    "mode": "negentropy_compete",
+    "clock_mode": "fixed",
+    "tbit_s": 3.0,
+    "neg_window_sec": 15.0,
+    "mapping": {
+      "s1": "0",
+      "s2": "1"
+    },
+    "decision_rule": "lower_entropy_wins",
+    "thr_d2": 12.0,
+    "thr_d3_max": 12.0,
+    "use_s3_gate": false,
+    "ctrl_thr_d3": 12.0,
+    "ctrl_thr_d2_max": 12.0,
+    "require_s4_on": false,
+    "summary_file": null,
+    "bitstream_file": null
+  },
+  "files": {
+    "txt": "CODIGO_20260328_145935.txt",
+    "dataset_csv": "CODIGO_20260328_145935_dataset.csv",
+    "temporal_profile_csv": "CODIGO_20260328_145935_temporal_profile.csv",
+    "spatial_profile_csv": "CODIGO_20260328_145935_spatial_profile.csv",
+    "beaconB_signal_csv": "CODIGO_20260328_145935_beaconB_signal.csv",
+    "beaconB_bits_csv": "CODIGO_20260328_145935_beaconB_bits.csv",
+    "beaconB_visual_signal_csv": "CODIGO_20260328_145935_beaconB_visual_signal.csv",
+    "beaconB_visual_bits_csv": "CODIGO_20260328_145935_beaconB_visual_bits.csv",
+    "h3v0_bitstream_csv": null,
+    "h3v0_summary_json": null,
+    "meta_json": "CODIGO_20260328_145935_meta.json",
+    "waterfall_png": "CODIGO_20260328_145935_waterfall.png",
+    "snapshot_png": "CODIGO_20260328_145935_snapshot.png",
+    "quantum_contact_data_csv": "CODIGO_20260328_145935_quantum_contact_data.csv",
+    "quantum_contact_data_plain_csv": "quantum_contact_data.csv",
+    "analysis_pdf": "CODIGO_20260328_145935_analisis_sesion_beaconB.pdf",
+    "analysis_json": "CODIGO_20260328_145935_analisis_sesion_beaconB.json",
+    "analysis_exploratory_json": null,
+    "session_pack_zip": "CODIGO_20260328_145935_PACK.zip"
+  },
+  "script": "sistema_v22_ON_PDF_v22_CORREGIDO.py",
+  "session_time_integrity": {
+    "status": "fail",
+    "label": "COMPROMETIDA",
+    "expected_s": 186.0,
+    "actual_s": 200.0,
+    "gap_s": 14.0,
+    "gap_pct": 7.526881720430108,
+    "reasons": [
+      "Desfase temporal alto: 14.0s (7.53%)."
+    ],
+    "profile": "QC-time-v1"
+  },
+  "warnings": [
+    "exploratory_export_failed: name '_qc_build_event_info_from_meta' is not defined"
+  ],
+  "exports_summary": {
+    "session_dir": "C:\\Users\\jsbae\\Desktop\\Quantum_contact\\codigos\\20260328\\CODIGO_20260328_145935",
+    "pack_zip_created": true,
+    "pack_zip": "CODIGO_20260328_145935_PACK.zip",
+    "analysis_pdf_created": true,
+    "analysis_json_created": true,
+    "raw_samples_exported": true,
+    "raw_samples_status": "ok"
+  }
+}
