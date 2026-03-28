@@ -1,0 +1,480 @@
+{
+  "base": "CODIGO_20260328_110417",
+  "created_at": "2026-03-28T11:10:20",
+  "started_at": "2026-03-28T11:06:59",
+  "ended_at": "2026-03-28T11:10:20",
+  "duration_s": 200.002669,
+  "n_rows": 323,
+  "n_cols": 480,
+  "poll_ms": 600,
+  "source": {
+    "host": "http://127.0.0.1:5000",
+    "path": "/api/latest",
+    "csv_path": null,
+    "autofind": false
+  },
+  "ambient_sensors_behavior": {
+    "captured": true,
+    "n_samples": 225,
+    "n_samples_raw": 323,
+    "n_samples_after_warmup": 225,
+    "warmup_sec_applied": 60.0,
+    "warmup_idx": 98,
+    "dt_est_s": 0.6146626472473145,
+    "t_start_s": 60.44654870033264,
+    "t_end_s": 199.36861729621887,
+    "span_s": 138.92206859588623,
+    "s4_counts": {
+      "0": 225,
+      "1": 0
+    },
+    "s4_counts_env_valid": {
+      "0": 225,
+      "1": 0
+    },
+    "summary": {
+      "lux": {
+        "n_total": 225,
+        "n_valid": 93,
+        "n_invalid": 132,
+        "valid_pct": 41.333333333333336,
+        "status": "ok",
+        "first": 3.9,
+        "last": 0.5,
+        "delta": -3.4,
+        "mean": 10.797849462365592,
+        "std": 6.64261568593315,
+        "median": 12.7,
+        "mad": 4.8999999999999995,
+        "min": 0.5,
+        "max": 22.5,
+        "range": 22.0,
+        "trend": "falling",
+        "variability": "high",
+        "slope_per_min": -1.515882044119413,
+        "t_start_valid_s": 64.1629729270935,
+        "t_end_valid_s": 198.73808765411377,
+        "span_valid_s": 134.57511472702026
+      },
+      "temp_c": {
+        "n_total": 225,
+        "n_valid": 225,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 24.13,
+        "last": 24.07,
+        "delta": -0.05999999999999872,
+        "mean": 24.151822222222222,
+        "std": 0.059512637046714084,
+        "median": 24.16,
+        "mad": 0.05000000000000071,
+        "min": 24.02,
+        "max": 24.33,
+        "range": 0.3099999999999987,
+        "trend": "falling",
+        "variability": "low",
+        "slope_per_min": -0.02591380934926941,
+        "t_start_valid_s": 60.44654870033264,
+        "t_end_valid_s": 199.36861729621887,
+        "span_valid_s": 138.92206859588623
+      },
+      "acc_mag_m_s2": {
+        "n_total": 225,
+        "n_valid": 225,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 10.088277404988425,
+        "last": 10.09694988598042,
+        "delta": 0.008672480991995357,
+        "mean": 10.085184828450844,
+        "std": 0.0612083165963044,
+        "median": 10.090102130305718,
+        "mad": 0.015041286816979138,
+        "min": 9.246408005274263,
+        "max": 10.202518022527578,
+        "range": 0.9561100172533141,
+        "trend": "stable",
+        "variability": "low",
+        "slope_per_min": 0.0037456169835289226,
+        "t_start_valid_s": 60.44654870033264,
+        "t_end_valid_s": 199.36861729621887,
+        "span_valid_s": 138.92206859588623
+      },
+      "rot_mag_deg_s": {
+        "n_total": 225,
+        "n_valid": 225,
+        "n_invalid": 0,
+        "valid_pct": 100.0,
+        "status": "ok",
+        "first": 0.027892651361962707,
+        "last": 0.029274562336608898,
+        "delta": 0.0013819109746461902,
+        "mean": 0.02838858122971925,
+        "std": 0.0008709153303144489,
+        "median": 0.028372521918222218,
+        "mad": 0.0005411426713796998,
+        "min": 0.02353720459187964,
+        "max": 0.03127299154222378,
+        "range": 0.007735786950344138,
+        "trend": "rising",
+        "variability": "medium",
+        "slope_per_min": 0.0005968429589107535,
+        "t_start_valid_s": 60.44654870033264,
+        "t_end_valid_s": 199.36861729621887,
+        "span_valid_s": 138.92206859588623
+      },
+      "ldr_raw": {
+        "n_total": 225,
+        "n_valid": 93,
+        "n_invalid": 132,
+        "valid_pct": 41.333333333333336,
+        "status": "ok",
+        "first": 8.0,
+        "last": 1.0,
+        "delta": -7.0,
+        "mean": 22.096774193548388,
+        "std": 13.593528284451994,
+        "median": 26.0,
+        "mad": 10.0,
+        "min": 1.0,
+        "max": 46.0,
+        "range": 45.0,
+        "trend": "falling",
+        "variability": "high",
+        "slope_per_min": -3.12093362024585,
+        "t_start_valid_s": 64.1629729270935,
+        "t_end_valid_s": 198.73808765411377,
+        "span_valid_s": 134.57511472702026
+      }
+    },
+    "by_s4_mean": {
+      "s4_0": {
+        "n": 225,
+        "lux": 4.463111111111111,
+        "temp_c": 24.151822222222222,
+        "acc_mag_m_s2": 10.085184828450844,
+        "rot_mag_deg_s": 0.02838858122971925,
+        "ldr_raw": 9.133333333333333
+      },
+      "s4_1": {
+        "n": 0,
+        "lux": null,
+        "temp_c": null,
+        "acc_mag_m_s2": null,
+        "rot_mag_deg_s": null,
+        "ldr_raw": null
+      }
+    },
+    "last_snapshot": {
+      "lux": 0.0,
+      "temp_c": 24.07,
+      "acc_mag_m_s2": 10.09694988598042,
+      "rot_mag_deg_s": 0.029274562336608898,
+      "ldr_raw": 0.0,
+      "s4": 0
+    },
+    "stability_semaphore_qc_env": {
+      "status": "watch",
+      "label": "REVISAR",
+      "score": 2,
+      "defendible_env": true,
+      "reasons": [
+        "Luz: valid_pct bajo (41.3%).",
+        "|a|: rango alto (0.956 > 0.18)",
+        "|a|: variabilidad moderada (std=0.061 > 0.02)"
+      ],
+      "threshold_profile": "QC-env-v2",
+      "n_samples": 225,
+      "n_samples_raw": 323,
+      "n_samples_after_warmup": 225,
+      "span_s": 138.92206859588623
+    },
+    "ldr_bar_snapshot": {
+      "status": "stable",
+      "label": "ESTABLE (OK para experimento)",
+      "color": "#6dd17a",
+      "value": 0.0,
+      "delta": -1.0,
+      "metrics": {
+        "n": 90,
+        "std": 15.462100219888518,
+        "span": 46.0,
+        "drift": 0.05610838878797951,
+        "p95_dv": 45.0
+      },
+      "baseline_ready": true
+    },
+    "stability_semaphore_ldr_bar": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=15.5, span=46, drift=+0.06 ADC/s, p95Δ=45",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 15.462100219888518,
+        "span": 46.0,
+        "drift": 0.05610838878797951,
+        "p95_dv": 45.0
+      },
+      "ldr_value": 0.0,
+      "ldr_delta": -1.0
+    },
+    "stability_semaphore": {
+      "status": "stable",
+      "label": "ESTABLE",
+      "score": 0,
+      "defendible_env": true,
+      "reasons": [
+        "LDR barra: σ=15.5, span=46, drift=+0.06 ADC/s, p95Δ=45",
+        "Dictamen barra LDR: ESTABLE (OK para experimento)"
+      ],
+      "threshold_profile": "LDR-bar-v1",
+      "source": "ldr_bar_final",
+      "baseline_ready": true,
+      "ldr_metrics": {
+        "n": 90,
+        "std": 15.462100219888518,
+        "span": 46.0,
+        "drift": 0.05610838878797951,
+        "p95_dv": 45.0
+      },
+      "ldr_value": 0.0,
+      "ldr_delta": -1.0,
+      "fallback_qc_env": {
+        "status": "watch",
+        "label": "REVISAR",
+        "score": 2,
+        "defendible_env": true,
+        "reasons": [
+          "Luz: valid_pct bajo (41.3%).",
+          "|a|: rango alto (0.956 > 0.18)",
+          "|a|: variabilidad moderada (std=0.061 > 0.02)"
+        ],
+        "threshold_profile": "QC-env-v2",
+        "n_samples": 225,
+        "n_samples_raw": 323,
+        "n_samples_after_warmup": 225,
+        "span_s": 138.92206859588623
+      }
+    }
+  },
+  "code_detector": {
+    "coding_active": false,
+    "finished": true,
+    "preamble": {
+      "bits": "10101010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza1": {
+      "bits": "1101011110",
+      "detected_live": true,
+      "state": "found",
+      "label": "DETECTADO",
+      "color": "#2ecc71"
+    },
+    "baliza2": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "baliza": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    }
+  },
+  "barcodes": {
+    "temporal": {
+      "otsu": 127.22882486979167,
+      "bits_len": 323,
+      "pad": 5,
+      "hex": "18032004e200610452f7777fed3ffbfffdecffffff57fffffff79ffdef5fff7fd17ffbffffc7fee7c0",
+      "rle": "0:3, 1:2, 0:9, 1:2, 0:2, 1:1, 0:10, 1:1, 0:2, 1:3, 0:3, 1:1, 0:10, 1:2, 0:4, 1:1, 0:5, 1:1, 0:3, 1:1, 0:1, 1:1, 0:2, 1:1, 0:1, 1:4, 0:1, 1:3, 0:1, 1:3, 0:1, 1:3, 0:1, 1:10, 0:1, 1:2, 0:1, 1:1, 0:2, 1:11, 0:1, 1:16, 0:1, 1:4, 0:1, 1:2, 0:2, 1:24, 0:1, 1:1, 0:1, 1:1, 0:1, 1:31, 0:1, 1:4, 0:2, 1:11, 0:1, 1:4, 0:1, 1:4, 0:1, 1:1, 0:1, 1:13, 0:1, 1:9, 0:1, 1:1, 0:3, 1:1, 0:1, 1:12, 0:1, 1:20, 0:3, 1:10, 0:1, 1:3, 0:2, 1:5, 0:1"
+    },
+    "spatial": {
+      "otsu": 124.679784249226,
+      "bits_len": 480,
+      "pad": 0,
+      "hex": "000000000000000000000000000007ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc00000000000000000000000000000",
+      "rle": "0:117, 1:245, 0:118"
+    }
+  },
+  "beaconB": {
+    "method": "digital_s2_minus_s1",
+    "preamble_bits": "10101010",
+    "preamble_len": 8,
+    "target_bits": "011010011010011010",
+    "baliza1_bits": "1101011110",
+    "baliza2_bits": "011010011010011010",
+    "target_len": 18,
+    "baliza1_len": 10,
+    "baliza2_len": 18,
+    "preamble_source": "ui_confirmed",
+    "led_status": {
+      "bits": "10101010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "target_led_status": {
+      "bits": "011010011010011010",
+      "detected_live": false,
+      "state": "miss",
+      "label": "NO DETECTADO",
+      "color": "#e74c3c"
+    },
+    "bit_dur_s": 3.0,
+    "rollmed_sec": 360.0,
+    "dt_est_s": 0.6163620948791504,
+    "samples_per_bit": 5,
+    "bits_len": 65,
+    "invalid_bits_count": 22,
+    "invalid_bits_frac": 0.3384615384615385,
+    "sample_invalid_count": 1,
+    "sample_invalid_frac": 0.0030959752321981426,
+    "tail_trim": {
+      "enabled": true,
+      "applied": false,
+      "idle_min_sec": 120.0,
+      "trimmed_samples": 0,
+      "trimmed_seconds": 0.0,
+      "tail_dt_est_s": 0.6163620948791504,
+      "reason": "tail_short"
+    },
+    "env_gate": {
+      "enabled": true,
+      "warmup_sec": 60.0,
+      "z_thr": 8.0,
+      "n_samples": 323,
+      "n_env_samples": 323,
+      "matched": 225,
+      "invalid_samples": 1,
+      "invalid_frac": 0.0030959752321981426,
+      "metrics": {
+        "lux": {
+          "ok": true,
+          "med": 12.7,
+          "sigma": 7.264739999999999,
+          "thr": 58.11791999999999
+        },
+        "acc": {
+          "ok": true,
+          "med": 10.090102130305718,
+          "sigma": 0.02230021183485327,
+          "thr": 0.17840169467882616
+        },
+        "rot": {
+          "ok": true,
+          "med": 0.028372521918222218,
+          "sigma": 0.0008022981245875429,
+          "thr": 5.0
+        },
+        "ldr": {
+          "ok": true,
+          "med": 26.0,
+          "sigma": 14.825999999999999,
+          "thr": 118.60799999999999
+        }
+      },
+      "reason": "ok"
+    },
+    "best": null
+  },
+  "beaconB_visual": {
+    "method": "visual_roi_ratio_waterfall",
+    "target_bits": "011010011010011010",
+    "baliza1_bits": "1101011110",
+    "baliza2_bits": "011010011010011010",
+    "target_len": 18,
+    "baliza1_len": 10,
+    "baliza2_len": 18,
+    "roi_frac": 0.34,
+    "dt_est_s": 0.621126301242236,
+    "rows_per_bit": 5,
+    "bits_len": 65,
+    "best": null
+  },
+  "h3v0": {
+    "enabled": true,
+    "mode": "negentropy_compete",
+    "clock_mode": "fixed",
+    "tbit_s": 3.0,
+    "neg_window_sec": 15.0,
+    "mapping": {
+      "s1": "0",
+      "s2": "1"
+    },
+    "decision_rule": "lower_entropy_wins",
+    "thr_d2": 12.0,
+    "thr_d3_max": 12.0,
+    "use_s3_gate": false,
+    "ctrl_thr_d3": 12.0,
+    "ctrl_thr_d2_max": 12.0,
+    "require_s4_on": false,
+    "summary_file": null,
+    "bitstream_file": null
+  },
+  "files": {
+    "txt": "CODIGO_20260328_110417.txt",
+    "dataset_csv": "CODIGO_20260328_110417_dataset.csv",
+    "temporal_profile_csv": "CODIGO_20260328_110417_temporal_profile.csv",
+    "spatial_profile_csv": "CODIGO_20260328_110417_spatial_profile.csv",
+    "beaconB_signal_csv": "CODIGO_20260328_110417_beaconB_signal.csv",
+    "beaconB_bits_csv": "CODIGO_20260328_110417_beaconB_bits.csv",
+    "beaconB_visual_signal_csv": "CODIGO_20260328_110417_beaconB_visual_signal.csv",
+    "beaconB_visual_bits_csv": "CODIGO_20260328_110417_beaconB_visual_bits.csv",
+    "h3v0_bitstream_csv": null,
+    "h3v0_summary_json": null,
+    "meta_json": "CODIGO_20260328_110417_meta.json",
+    "waterfall_png": "CODIGO_20260328_110417_waterfall.png",
+    "snapshot_png": "CODIGO_20260328_110417_snapshot.png",
+    "quantum_contact_data_csv": "CODIGO_20260328_110417_quantum_contact_data.csv",
+    "quantum_contact_data_plain_csv": "quantum_contact_data.csv",
+    "analysis_pdf": "CODIGO_20260328_110417_analisis_sesion_beaconB.pdf",
+    "analysis_json": "CODIGO_20260328_110417_analisis_sesion_beaconB.json",
+    "analysis_exploratory_json": null,
+    "session_pack_zip": "CODIGO_20260328_110417_PACK.zip"
+  },
+  "script": "sistema_v22_reconstruido_desde_base.py",
+  "session_time_integrity": {
+    "status": "warn",
+    "label": "REVISAR",
+    "expected_s": 193.8,
+    "actual_s": 201.0,
+    "gap_s": 7.199999999999989,
+    "gap_pct": 3.7151702786377645,
+    "reasons": [
+      "Desfase temporal moderado: 7.2s (3.72%)."
+    ],
+    "profile": "QC-time-v1"
+  },
+  "warnings": [
+    "exploratory_export_failed: name '_qc_build_event_info_from_meta' is not defined"
+  ],
+  "exports_summary": {
+    "session_dir": "C:\\Users\\jsbae\\Desktop\\Quantum_contact\\codigos\\20260328\\CODIGO_20260328_110417",
+    "pack_zip_created": true,
+    "pack_zip": "CODIGO_20260328_110417_PACK.zip",
+    "analysis_pdf_created": true,
+    "analysis_json_created": true,
+    "raw_samples_exported": true,
+    "raw_samples_status": "ok"
+  }
+}
